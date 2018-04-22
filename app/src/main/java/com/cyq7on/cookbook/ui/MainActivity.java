@@ -18,22 +18,16 @@ import com.cyq7on.cookbook.ui.fragment.ConversationFragment;
 import com.cyq7on.cookbook.ui.fragment.DepAndDoctorFragment;
 import com.cyq7on.cookbook.ui.fragment.SetFragment;
 import com.cyq7on.cookbook.util.IMMLeaks;
-import com.orhanobut.logger.Logger;
 
-import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
 
 import butterknife.Bind;
 import cn.bmob.newim.BmobIM;
-import cn.bmob.newim.core.ConnectionStatus;
 import cn.bmob.newim.event.MessageEvent;
 import cn.bmob.newim.event.OfflineMessageEvent;
-import cn.bmob.newim.listener.ConnectListener;
-import cn.bmob.newim.listener.ConnectStatusChangeListener;
 import cn.bmob.newim.listener.ObseverListener;
 import cn.bmob.newim.notification.BmobNotificationManager;
 import cn.bmob.v3.BmobUser;
-import cn.bmob.v3.exception.BmobException;
 
 /**
  * @author :smile
@@ -70,7 +64,7 @@ public class MainActivity extends BaseActivity implements ObseverListener {
         setContentView(R.layout.activity_main);
         //connect server
         User user = BmobUser.getCurrentUser(this, User.class);
-        BmobIM.connect(user.getObjectId(), new ConnectListener() {
+        /*BmobIM.connect(user.getObjectId(), new ConnectListener() {
             @Override
             public void done(String uid, BmobException e) {
                 if (e == null) {
@@ -88,7 +82,7 @@ public class MainActivity extends BaseActivity implements ObseverListener {
             public void onChange(ConnectionStatus status) {
 //                toast("" + status.getMsg());
             }
-        });
+        });*/
         //解决leancanary提示InputMethodManager内存泄露的问题
         IMMLeaks.fixFocusedViewLeak(getApplication());
     }

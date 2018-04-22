@@ -15,28 +15,6 @@
         android:background="@drawable/input_bg"
         android:orientation="vertical" >
 
-        <RadioGroup
-            android:id="@+id/rg"
-            android:padding="5dp"
-            android:orientation="horizontal"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-            <RadioButton
-                android:layout_weight="1"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:text="@string/role_patient" />
-            <RadioButton
-                android:layout_weight="1"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:text="@string/role_doctor" />
-        </RadioGroup>
-
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="0.5dp"
-            android:background="@mipmap/base_horization_line" />
 
         <RadioGroup
             android:id="@+id/rgSex"
@@ -104,51 +82,6 @@
             android:drawablePadding="25dip"
             android:hint="@string/login_email_hint"
             android:inputType="textPassword"
-            android:paddingLeft="15dip"
-            android:textColorHint="#ffdddddd" />
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="0.5dp"
-            android:background="@mipmap/base_horization_line" />
-        <EditText
-            android:id="@+id/et_age"
-            android:layout_width="fill_parent"
-            android:layout_height="@dimen/height_title"
-            android:background="@color/transparent"
-            android:drawableLeft="@mipmap/login_icon_write"
-            android:drawablePadding="25dip"
-            android:inputType="number"
-            android:hint="@string/login_age"
-            android:paddingLeft="15dip"
-            android:textColorHint="#ffdddddd" />
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="0.5dp"
-            android:background="@mipmap/base_horization_line" />
-        <EditText
-            android:id="@+id/et_record"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:minHeight="@dimen/height_title"
-            android:background="@color/transparent"
-            android:drawableLeft="@mipmap/login_icon_write"
-            android:drawablePadding="25dip"
-            android:hint="@string/login_record"
-            android:paddingLeft="15dip"
-            android:textColorHint="#ffdddddd" />
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="0.5dp"
-            android:background="@mipmap/base_horization_line" />
-        <EditText
-            android:id="@+id/et_dep"
-            android:layout_width="fill_parent"
-            android:layout_height="@dimen/height_title"
-            android:focusable="false"
-            android:background="@color/transparent"
-            android:drawableLeft="@mipmap/login_icon_write"
-            android:drawablePadding="25dip"
-            android:hint="@string/login_department"
             android:paddingLeft="15dip"
             android:textColorHint="#ffdddddd" />
 

@@ -1,7 +1,5 @@
 package com.cyq7on.cookbook.ui;
 
-import android.app.AlertDialog;
-import android.content.DialogInterface;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -9,9 +7,7 @@ import android.widget.EditText;
 import android.widget.RadioGroup;
 
 import com.cyq7on.cookbook.R;
-import com.cyq7on.cookbook.adapter.DepAndDoctorAdapter;
 import com.cyq7on.cookbook.base.ParentWithNaviActivity;
-import com.cyq7on.cookbook.bean.Department;
 import com.cyq7on.cookbook.event.FinishEvent;
 import com.cyq7on.cookbook.model.BaseModel;
 import com.cyq7on.cookbook.model.UserModel;
@@ -44,19 +40,10 @@ public class RegisterActivity extends ParentWithNaviActivity {
 
     @Bind(R.id.et_password_again)
     EditText et_password_again;
-    @Bind(R.id.rg)
-    RadioGroup rg;
-    @Bind(R.id.et_age)
-    EditText etAge;
-    @Bind(R.id.et_record)
-    EditText etRecord;
-    @Bind(R.id.et_dep)
-    EditText etDep;
     @Bind(R.id.rgSex)
     RadioGroup rgSex;
-    private byte role = 1;
-    private byte depId;
     private byte sex = 1;
+    private String[] items = {"能量", "蛋白质", "维生素A","维生素B","维生素C","维生素D","维生素E","钙铁锌硒"};
 
 
     @Override
@@ -75,13 +62,6 @@ public class RegisterActivity extends ParentWithNaviActivity {
     @Override
     protected void initView() {
         super.initView();
-        rg.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
-            @Override
-            public void onCheckedChanged(RadioGroup radioGroup, int i) {
-                role = (byte) i;
-                Logger.d("rg: " + i);
-            }
-        });
         rgSex.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(RadioGroup radioGroup, int i) {
@@ -92,33 +72,19 @@ public class RegisterActivity extends ParentWithNaviActivity {
         });
     }
 
-    @OnClick(R.id.et_dep)
+    /*@OnClick(R.id.et_dep)
     public void onClick(View view) {
-        new AlertDialog.Builder(this)
-                .setTitle("请选择科室")
-                .setItems(DepAndDoctorAdapter.dep, new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialogInterface, int i) {
-                        String dep = DepAndDoctorAdapter.dep[i];
-                        Department department = new Department();
-                        department.setDep(dep);
-                        department.setDepId(i);
-                        etDep.setText(dep);
-                        depId = (byte) i;
-                        /*department.save(getApplicationContext(), new SaveListener() {
-                            @Override
-                            public void onSuccess() {
-                                Logger.d("dep success");
-                            }
+        AlertDialog dialog = new AlertDialog.Builder(this).setTitle("营养成分")
+                .setNegativeButton("取消", null).setPositiveButton("确定", null)
+                .setMultiChoiceItems(items, null, new DialogInterface.OnMultiChoiceClickListener() {
 
-                            @Override
-                            public void onFailure(int i, String s) {
-                                Logger.d(i + s);
-                            }
-                        });*/
+                    @Override
+                    public void onClick(DialogInterface dialog, int which, boolean isChecked) {
+                        Logger.d(which + "\n" + isChecked);
                     }
-                }).show();
-    }
+                }).create();
+        dialog.show();
+    }*/
 
     @OnClick(R.id.btn_register)
     public void onRegisterClick(View view) {
@@ -151,21 +117,8 @@ public class RegisterActivity extends ParentWithNaviActivity {
                 }
             }
         };
-        switch (role) {
-            case 2:
-                UserModel.getInstance().registerDoctor(et_username.getText().toString(),
-                        et_password.getText().toString(), et_password_again.getText().toString(),
-                        etAge.getText().toString(), sex, etDep.getText().toString()
-                        , depId,logInListener);
-                break;
-            default:
-                UserModel.getInstance().registerPatient(et_username.getText().toString(),
-                        et_password.getText().toString(), et_password_again.getText().toString(),
-                        etAge.getText().toString(), sex, etRecord.getText().toString()
-                        , logInListener);
-                break;
-        }
-
+        UserModel.getInstance().register(et_username.getText().toString(),
+                et_password.getText().toString(), et_password_again.getText().toString(),logInListener);
     }
 
 }
