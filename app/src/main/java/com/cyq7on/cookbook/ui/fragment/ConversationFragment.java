@@ -9,11 +9,19 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.ViewTreeObserver;
 
+import com.cyq7on.cookbook.R;
+import com.cyq7on.cookbook.adapter.ConversationAdapter;
 import com.cyq7on.cookbook.adapter.OnRecyclerViewListener;
+import com.cyq7on.cookbook.adapter.base.IMutlipleItem;
 import com.cyq7on.cookbook.base.ParentWithNaviActivity;
+import com.cyq7on.cookbook.base.ParentWithNaviFragment;
+import com.cyq7on.cookbook.bean.Conversation;
+import com.cyq7on.cookbook.bean.NewFriendConversation;
 import com.cyq7on.cookbook.bean.PrivateConversation;
 import com.cyq7on.cookbook.db.NewFriend;
 import com.cyq7on.cookbook.db.NewFriendManager;
+import com.cyq7on.cookbook.event.RefreshEvent;
+import com.cyq7on.cookbook.ui.UploadCookBookActivity;
 
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
@@ -24,14 +32,6 @@ import java.util.List;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
-import com.cyq7on.cookbook.R;
-import com.cyq7on.cookbook.adapter.ConversationAdapter;
-import com.cyq7on.cookbook.adapter.base.IMutlipleItem;
-import com.cyq7on.cookbook.base.ParentWithNaviFragment;
-import com.cyq7on.cookbook.bean.Conversation;
-import com.cyq7on.cookbook.bean.NewFriendConversation;
-import com.cyq7on.cookbook.event.RefreshEvent;
-import com.cyq7on.cookbook.ui.SearchUserActivity;
 import cn.bmob.newim.BmobIM;
 import cn.bmob.newim.bean.BmobIMConversation;
 import cn.bmob.newim.event.MessageEvent;
@@ -71,7 +71,7 @@ public class ConversationFragment extends ParentWithNaviFragment {
 
             @Override
             public void clickRight() {
-                startActivity(SearchUserActivity.class,null);
+                startActivity(UploadCookBookActivity.class,null);
             }
         };
     }

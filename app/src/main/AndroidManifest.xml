@@ -76,7 +76,8 @@
             android:value="49103683ad7858f0b3206f3b96d44d71" />
         <!-- bmobim end -->
 
-        <activity android:name=".ui.EditPwdActivity"></activity>
+        <activity android:name=".ui.EditPwdActivity" />
+        <activity android:name=".ui.UploadCookBookActivity"></activity>
     </application>
 
 </manifest>

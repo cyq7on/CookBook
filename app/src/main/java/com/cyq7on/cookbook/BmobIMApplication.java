@@ -1,9 +1,14 @@
 package com.cyq7on.cookbook;
 
 import android.app.Application;
+import android.content.Context;
+import android.widget.ImageView;
 
+import com.bumptech.glide.Glide;
 import com.cyq7on.cookbook.base.UniversalImageLoader;
 import com.orhanobut.logger.Logger;
+import com.yuyh.library.imgsel.ISNav;
+import com.yuyh.library.imgsel.common.ImageLoader;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -44,6 +49,13 @@ public class BmobIMApplication extends Application{
         }
         //uil初始化
         UniversalImageLoader.initImageLoader(this);
+        // 自定义图片加载器
+        ISNav.getInstance().init(new ImageLoader() {
+            @Override
+            public void displayImage(Context context, String path, ImageView imageView) {
+                Glide.with(context).load(path).into(imageView);
+            }
+        });
     }
 
     /**
