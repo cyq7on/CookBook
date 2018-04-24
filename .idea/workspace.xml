@@ -11,133 +11,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4c41c45-b412-4041-8102-b3cc1781c957" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/dnwang.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle____local_jars____media_cyq7on_0EFF10060EFF1006_demo_Android_bmob_newim_demo_CookBook_app_libs_universal_image_loader_1_9_5_jar_unspecified_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__cn_bmob_android_bmob_im_2_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__cn_bmob_android_bmob_sdk_3_6_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_animated_vector_drawable_23_4_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_appcompat_v7_23_4_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_recyclerview_v7_23_4_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_annotations_23_4_0_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_v4_23_4_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_vector_drawable_23_4_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_promeg_tinypinyin_1_0_0_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_jakewharton_butterknife_7_0_1_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_orhanobut_logger_1_4.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_yuyh_easyadapter_library_1_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_yuyh_imgsel_library_2_0_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_greenrobot_eventbus_3_0_0_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/CookBook.iml" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
-      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/cyq7on/cookbook/ApplicationTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyq7on/cookbook/BmobIMApplication.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyq7on/cookbook/Config.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyq7on/cookbook/DemoMessageHandler.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyq7on/cookbook/adapter/AgreeHolder.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyq7on/cookbook/adapter/ChatAdapter.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyq7on/cookbook/adapter/ContactAdapter.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyq7on/cookbook/adapter/ConversationAdapter.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyq7on/cookbook/adapter/DepAndDoctorAdapter.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyq7on/cookbook/adapter/NewFriendAdapter.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyq7on/cookbook/adapter/NewRecordPlayClickListener.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyq7on/cookbook/adapter/OnRecyclerViewListener.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyq7on/cookbook/adapter/ReceiveImageHolder.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyq7on/cookbook/adapter/ReceiveLocationHolder.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyq7on/cookbook/adapter/ReceiveTextHolder.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyq7on/cookbook/adapter/ReceiveVideoHolder.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyq7on/cookbook/adapter/ReceiveVoiceHolder.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyq7on/cookbook/adapter/SearchUserAdapter.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyq7on/cookbook/adapter/SearchUserHolder.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyq7on/cookbook/adapter/SendImageHolder.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyq7on/cookbook/adapter/SendLocationHolder.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyq7on/cookbook/adapter/SendTextHolder.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyq7on/cookbook/adapter/SendVideoHolder.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyq7on/cookbook/adapter/SendVoiceHolder.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyq7on/cookbook/adapter/UserAdapter.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyq7on/cookbook/adapter/base/BaseRecyclerAdapter.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyq7on/cookbook/adapter/base/BaseRecyclerHolder.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyq7on/cookbook/adapter/base/BaseViewHolder.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyq7on/cookbook/adapter/base/IMutlipleItem.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyq7on/cookbook/base/BaseActivity.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyq7on/cookbook/base/BaseFragment.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyq7on/cookbook/base/ILoader.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyq7on/cookbook/base/ImageLoaderFactory.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyq7on/cookbook/base/ParentWithNaviActivity.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyq7on/cookbook/base/ParentWithNaviFragment.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyq7on/cookbook/base/UniversalImageLoader.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyq7on/cookbook/bean/AddFriendMessage.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyq7on/cookbook/bean/AgreeAddFriendMessage.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyq7on/cookbook/bean/ChildrenData.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyq7on/cookbook/bean/Conversation.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyq7on/cookbook/bean/CookBook.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyq7on/cookbook/bean/Department.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyq7on/cookbook/bean/Doctor.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyq7on/cookbook/bean/FatherData.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyq7on/cookbook/bean/Friend.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyq7on/cookbook/bean/NewFriendConversation.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyq7on/cookbook/bean/Patient.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyq7on/cookbook/bean/PrivateConversation.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyq7on/cookbook/bean/User.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyq7on/cookbook/db/NewFriend.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyq7on/cookbook/db/NewFriendManager.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyq7on/cookbook/db/dao/DaoMaster.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyq7on/cookbook/db/dao/DaoSession.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyq7on/cookbook/db/dao/NewFriendDao.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyq7on/cookbook/event/FinishEvent.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyq7on/cookbook/event/RefreshEvent.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyq7on/cookbook/model/BaseModel.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyq7on/cookbook/model/UserModel.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyq7on/cookbook/model/i/QueryUserListener.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyq7on/cookbook/model/i/UpdateCacheListener.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyq7on/cookbook/ui/ChatActivity.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyq7on/cookbook/ui/EditPwdActivity.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyq7on/cookbook/ui/LoginActivity.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyq7on/cookbook/ui/MainActivity.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyq7on/cookbook/ui/NewFriendActivity.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyq7on/cookbook/ui/RegisterActivity.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyq7on/cookbook/ui/SearchUserActivity.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyq7on/cookbook/ui/SplashActivity.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyq7on/cookbook/ui/UploadCookBookActivity.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyq7on/cookbook/ui/UserInfoActivity.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyq7on/cookbook/ui/fragment/ContactFragment.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyq7on/cookbook/ui/fragment/ConversationFragment.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyq7on/cookbook/ui/fragment/DepAndDoctorFragment.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyq7on/cookbook/ui/fragment/SetFragment.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyq7on/cookbook/util/BmobConstants.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyq7on/cookbook/util/DisplayConfig.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyq7on/cookbook/util/IMMLeaks.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyq7on/cookbook/util/LifecycleCallbacksAdapter.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyq7on/cookbook/util/SPUtil.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyq7on/cookbook/util/TimeUtil.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyq7on/cookbook/util/Util.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_edit_pwd.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_register.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_register.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_user_info.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_user_info.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_contact_dep.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_set.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_set.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/include_navi.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/include_navi.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_contact.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_contact.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/head.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/login_icon_write.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/cn/bmob/imdemo/adapter/CookBookAdapter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/cn/bmob/imdemo/ui/fragment/CollectFragment.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/cn/bmob/imdemo/ui/fragment/RecommendFragment.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_cookbook.xml" />
+      <change beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" />
+      <change beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
+      <change beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/cn/bmob/imdemo/ui/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/cn/bmob/imdemo/ui/MainActivity.java" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/cyq7on/cookbook/ExampleUnitTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -160,28 +47,71 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UploadCookBookActivity.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/bmob/imdemo/ui/UploadCookBookActivity.java">
+      <file leaf-file-name="ContactFragment.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/bmob/imdemo/ui/fragment/ContactFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1817">
-              <caret line="107" column="17" lean-forward="true" selection-start-line="107" selection-start-column="17" selection-end-line="107" selection-end-column="17" />
+            <state relative-caret-position="386">
+              <caret line="87" column="41" lean-forward="false" selection-start-line="87" selection-start-column="8" selection-end-line="87" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserModel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/bmob/imdemo/model/UserModel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="640">
+              <caret line="269" column="11" lean-forward="false" selection-start-line="251" selection-start-column="8" selection-end-line="269" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fragment_contact.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_contact.xml">
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RecommendFragment.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/bmob/imdemo/ui/fragment/RecommendFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="102" column="16" lean-forward="false" selection-start-line="102" selection-start-column="16" selection-end-line="102" selection-end-column="47" />
               <folding>
-                <element signature="e#1716#1863#0" expanded="true" />
-                <element signature="e#1862#1863#0" expanded="true" />
-                <element signature="e#1936#2102#0" expanded="true" />
-                <element signature="e#2101#2102#0" expanded="true" />
-                <element signature="e#2218#3920#0" expanded="true" />
-                <element signature="e#2624#3875#0" expanded="true" />
-                <element signature="e#3093#3654#0" expanded="true" />
-                <element signature="e#3653#3654#0" expanded="true" />
-                <element signature="e#3874#3875#0" expanded="true" />
-                <element signature="e#3919#3920#0" expanded="true" />
-                <element signature="e#4079#4325#0" expanded="true" />
-                <element signature="e#4324#4325#0" expanded="true" />
-                <element signature="e#4407#4922#0" expanded="true" />
-                <element signature="e#4921#4922#0" expanded="true" />
-                <element signature="e#5007#5008#0" expanded="true" />
-                <element signature="e#5036#5037#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#1154#1155#0" expanded="true" />
+                <element signature="e#1181#1182#0" expanded="true" />
+                <element signature="e#2155#2156#0" expanded="true" />
+                <element signature="e#2195#2196#0" expanded="true" />
+                <element signature="e#2273#2274#0" expanded="true" />
+                <element signature="e#2334#2335#0" expanded="true" />
+                <element signature="e#2718#2871#0" expanded="true" />
+                <element signature="e#2870#2871#0" expanded="true" />
+                <element signature="e#3051#3588#0" expanded="true" />
+                <element signature="e#3587#3588#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CollectFragment.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/bmob/imdemo/ui/fragment/CollectFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="262">
+              <caret line="21" column="56" lean-forward="false" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#349#350#0" expanded="true" />
+                <element signature="e#376#377#0" expanded="true" />
+                <element signature="e#1101#1102#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -190,42 +120,60 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/bmob/imdemo/ui/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="98" column="54" lean-forward="false" selection-start-line="98" selection-start-column="54" selection-end-line="98" selection-end-column="54" />
-              <folding>
-                <element signature="e#2444#3133#0" expanded="true" />
-                <element signature="e#3132#3133#0" expanded="true" />
-                <element signature="e#3289#3570#0" expanded="true" />
-                <element signature="e#3569#3570#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="63" column="43" lean-forward="false" selection-start-line="63" selection-start-column="43" selection-end-line="63" selection-end-column="43" />
+            <state relative-caret-position="-1808">
+              <caret line="113" column="28" lean-forward="false" selection-start-line="113" selection-start-column="28" selection-end-line="113" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-          <provider editor-type-id="android-manifest">
+      <file leaf-file-name="item_cookbook.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_cookbook.xml">
+          <provider editor-type-id="android-designer2">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" column="35" lean-forward="false" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+            <state relative-caret-position="138">
+              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CookBookAdapter.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/bmob/imdemo/adapter/CookBookAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="469">
+              <caret line="33" column="76" lean-forward="true" selection-start-line="33" selection-start-column="76" selection-end-line="33" selection-end-column="76" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseRecyclerHolder.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/bmob/imdemo/adapter/base/BaseRecyclerHolder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2040">
+              <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="layoutResourceFile_vertical" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>会话</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -2097,9 +2045,14 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/cn/bmob/imdemo/ui/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/java/cn/bmob/imdemo/ui/UploadCookBookActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/cn/bmob/imdemo/ui/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/cn/bmob/imdemo/ui/fragment/RecommendFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/cn/bmob/imdemo/ui/fragment/CollectFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/item_cookbook.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/cn/bmob/imdemo/adapter/CookBookAdapter.java" />
       </list>
     </option>
   </component>
@@ -2127,7 +2080,9 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -2195,7 +2150,45 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="imdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="adapter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CookBook" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CookBook" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="imdemo" type="462c0819:PsiDirectoryNode" />
               <item name="ui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CookBook" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CookBook" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="imdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="fragment" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CookBook" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CookBook" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CookBook" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CookBook" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -2225,11 +2218,16 @@
     <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="show.do.not.ask.upgrade.gradle.plugin" value="2.3.3" />
-    <property name="device.picker.selection" value="4d00a2ea4bcf6189" />
+    <property name="device.picker.selection" value="Galaxy_Nexus" />
     <property name="DEBUGGABLE_DEVICE" value="samsung-sch_i959-4d00a2ea4bcf6189" />
     <property name="DEBUGGABLE_PROCESS" value="cn.bmob.imdemo" />
     <property name="SHOW_ALL_PROCESSES" value="false" />
     <property name="DEBUGGER_ID" value="Auto" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.bmob.imdemo.adapter" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -2416,27 +2414,29 @@
     <editor active="true" />
     <layout>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6421801" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938388" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3992891" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938388" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32938388" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6421801" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938388" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18569905" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938388" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18729989" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Android WiFi ADB" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3992891" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -2444,7 +2444,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -2469,22 +2468,22 @@
         <state relative-caret-position="3358">
           <caret line="180" column="38" lean-forward="true" selection-start-line="180" selection-start-column="38" selection-end-line="180" selection-end-column="38" />
           <folding>
-            <element signature="e#1716#1863#0" expanded="true" />
-            <element signature="e#1862#1863#0" expanded="true" />
-            <element signature="e#1936#2102#0" expanded="true" />
-            <element signature="e#2101#2102#0" expanded="true" />
-            <element signature="e#2218#3920#0" expanded="true" />
-            <element signature="e#2624#3875#0" expanded="true" />
-            <element signature="e#3093#3654#0" expanded="true" />
-            <element signature="e#3653#3654#0" expanded="true" />
-            <element signature="e#3874#3875#0" expanded="true" />
-            <element signature="e#3919#3920#0" expanded="true" />
-            <element signature="e#4079#4325#0" expanded="true" />
-            <element signature="e#4324#4325#0" expanded="true" />
-            <element signature="e#4407#4922#0" expanded="true" />
-            <element signature="e#4921#4922#0" expanded="true" />
-            <element signature="e#5007#5008#0" expanded="true" />
-            <element signature="e#5036#5037#0" expanded="true" />
+            <element signature="e#1716#1863#0" expanded="false" />
+            <element signature="e#1862#1863#0" expanded="false" />
+            <element signature="e#1936#2102#0" expanded="false" />
+            <element signature="e#2101#2102#0" expanded="false" />
+            <element signature="e#2218#3920#0" expanded="false" />
+            <element signature="e#2624#3875#0" expanded="false" />
+            <element signature="e#3093#3654#0" expanded="false" />
+            <element signature="e#3653#3654#0" expanded="false" />
+            <element signature="e#3874#3875#0" expanded="false" />
+            <element signature="e#3919#3920#0" expanded="false" />
+            <element signature="e#4079#4325#0" expanded="false" />
+            <element signature="e#4324#4325#0" expanded="false" />
+            <element signature="e#4407#4922#0" expanded="false" />
+            <element signature="e#4921#4922#0" expanded="false" />
+            <element signature="e#5007#5008#0" expanded="false" />
+            <element signature="e#5036#5037#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2516,19 +2515,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/bmob/imdemo/ui/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="98" column="54" lean-forward="false" selection-start-line="98" selection-start-column="54" selection-end-line="98" selection-end-column="54" />
-          <folding>
-            <element signature="e#2444#3133#0" expanded="true" />
-            <element signature="e#3132#3133#0" expanded="true" />
-            <element signature="e#3289#3570#0" expanded="true" />
-            <element signature="e#3569#3570#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="416">
@@ -2539,26 +2525,174 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/bmob/imdemo/ui/UploadCookBookActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1817">
-          <caret line="107" column="17" lean-forward="true" selection-start-line="107" selection-start-column="17" selection-end-line="107" selection-end-column="17" />
+        <state relative-caret-position="168">
+          <caret line="94" column="9" lean-forward="true" selection-start-line="94" selection-start-column="9" selection-end-line="94" selection-end-column="9" />
           <folding>
-            <element signature="e#1716#1863#0" expanded="true" />
-            <element signature="e#1862#1863#0" expanded="true" />
-            <element signature="e#1936#2102#0" expanded="true" />
-            <element signature="e#2101#2102#0" expanded="true" />
-            <element signature="e#2218#3920#0" expanded="true" />
-            <element signature="e#2624#3875#0" expanded="true" />
-            <element signature="e#3093#3654#0" expanded="true" />
-            <element signature="e#3653#3654#0" expanded="true" />
-            <element signature="e#3874#3875#0" expanded="true" />
-            <element signature="e#3919#3920#0" expanded="true" />
-            <element signature="e#4079#4325#0" expanded="true" />
-            <element signature="e#4324#4325#0" expanded="true" />
-            <element signature="e#4407#4922#0" expanded="true" />
-            <element signature="e#4921#4922#0" expanded="true" />
-            <element signature="e#5007#5008#0" expanded="true" />
-            <element signature="e#5036#5037#0" expanded="true" />
+            <element signature="e#1716#1863#0" expanded="false" />
+            <element signature="e#1862#1863#0" expanded="false" />
+            <element signature="e#1936#2102#0" expanded="false" />
+            <element signature="e#2101#2102#0" expanded="false" />
+            <element signature="e#2218#3920#0" expanded="false" />
+            <element signature="e#2624#3875#0" expanded="false" />
+            <element signature="e#3093#3654#0" expanded="false" />
+            <element signature="e#3653#3654#0" expanded="false" />
+            <element signature="e#3874#3875#0" expanded="false" />
+            <element signature="e#3919#3920#0" expanded="false" />
+            <element signature="e#4079#4325#0" expanded="false" />
+            <element signature="e#4324#4325#0" expanded="false" />
+            <element signature="e#4407#4922#0" expanded="false" />
+            <element signature="e#4921#4922#0" expanded="false" />
+            <element signature="e#5007#5008#0" expanded="false" />
+            <element signature="e#5036#5037#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="15" column="38" lean-forward="false" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/bmob/imdemo/ui/fragment/ConversationFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2374">
+          <caret line="43" column="13" lean-forward="false" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_contact.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/bmob/imdemo/adapter/ChatAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/bmob/imdemo/adapter/base/BaseRecyclerHolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2040">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/default_head.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../../0EFF0CEC0EFF0CEC/software/LinuxFile/android-sdk/extras/android/m2repository/com/android/support/recyclerview-v7/23.4.0/recyclerview-v7-23.4.0-sources.jar!/android/support/v7/widget/RecyclerView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="873" column="16" lean-forward="false" selection-start-line="873" selection-start-column="16" selection-end-line="873" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/bmob/imdemo/model/UserModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="269" column="11" lean-forward="false" selection-start-line="251" selection-start-column="8" selection-end-line="269" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../../0EFF0CEC0EFF0CEC/software/LinuxFile/android-sdk/platforms/android-23/android.jar!/android/view/View.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="611" column="16" lean-forward="false" selection-start-line="611" selection-start-column="16" selection-end-line="611" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/bmob/imdemo/ui/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1808">
+          <caret line="113" column="28" lean-forward="false" selection-start-line="113" selection-start-column="28" selection-end-line="113" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/bmob/imdemo/ui/fragment/ContactFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="87" column="41" lean-forward="false" selection-start-line="87" selection-start-column="8" selection-end-line="87" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/bmob/imdemo/ui/fragment/RecommendFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="102" column="16" lean-forward="false" selection-start-line="102" selection-start-column="16" selection-end-line="102" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1154#1155#0" expanded="true" />
+            <element signature="e#1181#1182#0" expanded="true" />
+            <element signature="e#2155#2156#0" expanded="true" />
+            <element signature="e#2195#2196#0" expanded="true" />
+            <element signature="e#2273#2274#0" expanded="true" />
+            <element signature="e#2334#2335#0" expanded="true" />
+            <element signature="e#2718#2871#0" expanded="true" />
+            <element signature="e#2870#2871#0" expanded="true" />
+            <element signature="e#3051#3588#0" expanded="true" />
+            <element signature="e#3587#3588#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/bmob/imdemo/ui/fragment/CollectFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="21" column="56" lean-forward="false" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#349#350#0" expanded="true" />
+            <element signature="e#376#377#0" expanded="true" />
+            <element signature="e#1101#1102#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/bmob/imdemo/adapter/ContactAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_cookbook.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/bmob/imdemo/adapter/CookBookAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="33" column="76" lean-forward="true" selection-start-line="33" selection-start-column="76" selection-end-line="33" selection-end-column="76" />
+          <folding />
         </state>
       </provider>
     </entry>

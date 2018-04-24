@@ -16,11 +16,12 @@ import org.greenrobot.eventbus.Subscribe;
 import butterknife.Bind;
 import cn.bmob.imdemo.R;
 import cn.bmob.imdemo.base.BaseActivity;
+import cn.bmob.imdemo.base.ParentWithNaviFragment;
 import cn.bmob.imdemo.bean.User;
 import cn.bmob.imdemo.db.NewFriendManager;
 import cn.bmob.imdemo.event.RefreshEvent;
-import cn.bmob.imdemo.ui.fragment.ContactFragment;
-import cn.bmob.imdemo.ui.fragment.ConversationFragment;
+import cn.bmob.imdemo.ui.fragment.CollectFragment;
+import cn.bmob.imdemo.ui.fragment.RecommendFragment;
 import cn.bmob.imdemo.ui.fragment.SetFragment;
 import cn.bmob.imdemo.util.IMMLeaks;
 import cn.bmob.newim.BmobIM;
@@ -54,9 +55,8 @@ public class MainActivity extends BaseActivity {
     ImageView iv_contact_tips;
 
     private TextView[] mTabs;
-    private ConversationFragment conversationFragment;
+    private ParentWithNaviFragment recommendFragment,collectFragment;
     private SetFragment setFragment;
-    ContactFragment contactFragment;
     private Fragment[] fragments;
     private int index;
     private int currentTabIndex;
@@ -112,16 +112,16 @@ public class MainActivity extends BaseActivity {
     }
 
     private void initTab() {
-        conversationFragment = new ConversationFragment();
+        recommendFragment = new RecommendFragment();
         setFragment = new SetFragment();
-        contactFragment = new ContactFragment();
-        fragments = new Fragment[]{conversationFragment, contactFragment, setFragment};
+        collectFragment = new CollectFragment();
+        fragments = new Fragment[]{recommendFragment, collectFragment, setFragment};
         getSupportFragmentManager().beginTransaction()
-                .add(R.id.fragment_container, conversationFragment).
-                add(R.id.fragment_container, contactFragment)
+                .add(R.id.fragment_container, recommendFragment).
+                add(R.id.fragment_container, collectFragment)
                 .add(R.id.fragment_container, setFragment)
-                .hide(setFragment).hide(contactFragment)
-                .show(conversationFragment).commit();
+                .hide(setFragment).hide(collectFragment)
+                .show(recommendFragment).commit();
     }
 
     public void onTabSelect(View view) {
