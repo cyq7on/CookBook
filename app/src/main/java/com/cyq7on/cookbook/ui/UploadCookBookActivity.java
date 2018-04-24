@@ -49,10 +49,10 @@ public class UploadCookBookActivity extends ParentWithNaviActivity {
                 // TitleBar背景色
                 .titleBgColor(color)
                 // 裁剪大小。needCrop为true的时候配置
-                .cropSize(1, 1, 200, 200)
-                .needCrop(true)
+//                .cropSize(1, 1, 200, 200)
+                .needCrop(false)
                 // 第一个是否显示相机，默认true
-                .needCamera(false)
+                .needCamera(true)
                 // 最大选择图片数量，默认9
                 .maxNum(9)
                 .build();
