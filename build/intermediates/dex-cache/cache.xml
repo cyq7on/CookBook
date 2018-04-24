@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/cyq7on/.android/build-cache/71bebd2c0d70ac7b71c989693f86a3747bcd8510/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/media/cyq7on/0EFF10060EFF1006/demo/Android/bmob-newim-demo/CookBook/app/build/intermediates/pre-dexed/debug/classes_933d6caed2abaac3612afb2ec2a0e96ccd4e36e3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cyq7on/.android/build-cache/56389936307a8ee8c807c655e3a176c59ff358fb/output/jars/libs/okio-1.12.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="06d2df9a60a2898b27acc93b1d1b37c8b6d94449">
+        <dex dex="/media/cyq7on/0EFF10060EFF1006/demo/Android/bmob-newim-demo/CookBook/app/build/intermediates/pre-dexed/debug/okio-1.12.0_db345ffe1362b2f66094cc7b8da3ad4ef9151368.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/media/cyq7on/0EFF10060EFF1006/demo/Android/bmob-newim-demo/CookBook/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/media/cyq7on/0EFF10060EFF1006/demo/Android/bmob-newim-demo/CookBook/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_7f415a0f475d4eeb29485ca9032c932531701409/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cyq7on/.android/build-cache/f2f82a97b11515823bc69cc3a471c07eb7ad0eff/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/media/cyq7on/0EFF10060EFF1006/demo/Android/bmob-newim-demo/CookBook/app/build/intermediates/pre-dexed/debug/classes_efe8adb97eb1419e9c3cedac50b02df3e02c1049.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cyq7on/.android/build-cache/61a8aeca05ee5718c6e4293b5f262ce01141d924/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="/media/cyq7on/0EFF10060EFF1006/demo/Android/bmob-newim-demo/CookBook/app/build/intermediates/pre-dexed/debug/classes_678dd2b726f6f423d76412db64d630bba7c8f75f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cyq7on/.android/build-cache/0824c31c2952cba7d4bc62f6e29bfa101f49d0ba/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="/media/cyq7on/0EFF10060EFF1006/demo/Android/bmob-newim-demo/CookBook/app/build/intermediates/pre-dexed/debug/classes_10271bc67a910e13299300a43f0a3d4a3b7870fa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cyq7on/.android/build-cache/56389936307a8ee8c807c655e3a176c59ff358fb/output/jars/libs/rxandroid-1.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="63ebf5c80191e3de58487f926dfdd08591c1a141">
+        <dex dex="/media/cyq7on/0EFF10060EFF1006/demo/Android/bmob-newim-demo/CookBook/app/build/intermediates/pre-dexed/debug/rxandroid-1.2.0_39060770ece99e6c58ebea7b74a2b57c0f047ef1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cyq7on/.android/build-cache/56389936307a8ee8c807c655e3a176c59ff358fb/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="8ad2b2fd18210c19fd5b1c49c8ef8bc4fa6a752b">
+        <dex dex="/media/cyq7on/0EFF10060EFF1006/demo/Android/bmob-newim-demo/CookBook/app/build/intermediates/pre-dexed/debug/classes_28f0afa3c4d387d49cb82521f68667809f45da49.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cyq7on/.android/build-cache/56389936307a8ee8c807c655e3a176c59ff358fb/output/jars/libs/gson-2.6.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="c7961a867428c54dac69c1bef5cb1ff1d62523e8">
+        <dex dex="/media/cyq7on/0EFF10060EFF1006/demo/Android/bmob-newim-demo/CookBook/app/build/intermediates/pre-dexed/debug/gson-2.6.2_a5af9cba83b8b54dcd6d6258c499213e4c81c4e3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cyq7on/.android/build-cache/56389936307a8ee8c807c655e3a176c59ff358fb/output/jars/libs/org.apache.http.legacy.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="9489c6ddbc4da74537ffd2ad8717ed8caf18c3ad">
+        <dex dex="/media/cyq7on/0EFF10060EFF1006/demo/Android/bmob-newim-demo/CookBook/app/build/intermediates/pre-dexed/debug/org.apache.http.legacy_6d078412564638d2936bb15e7db0f62c498e0bed.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cyq7on/.android/build-cache/f2f82a97b11515823bc69cc3a471c07eb7ad0eff/output/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/media/cyq7on/0EFF10060EFF1006/demo/Android/bmob-newim-demo/CookBook/app/build/intermediates/pre-dexed/debug/internal_impl-23.4.0_4f7f6e3328e458ded3ea53e0af6877b3ff1e6b9c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/media/cyq7on/0EFF10060EFF1006/demo/Android/bmob-newim-demo/CookBook/app/libs/universal-image-loader-1.9.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="442dbfb517b9ab5cb5c6da7ebf8cc28ec5bd0375">
+        <dex dex="/media/cyq7on/0EFF10060EFF1006/demo/Android/bmob-newim-demo/CookBook/app/build/intermediates/pre-dexed/debug/universal-image-loader-1.9.5_7cab0ebc3b78e4b4566fd2e2a11487ceadacb3b0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cyq7on/.android/build-cache/56389936307a8ee8c807c655e3a176c59ff358fb/output/jars/libs/BmobSDK_3.5.9_20180102.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="9f5e4845566e75012caf81c14febf9970780a73f">
+        <dex dex="/media/cyq7on/0EFF10060EFF1006/demo/Android/bmob-newim-demo/CookBook/app/build/intermediates/pre-dexed/debug/BmobSDK_3.5.9_20180102_7d461ba25d138b8562b0078e78008f9f2f241ad4.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/media/cyq7on/0EFF10060EFF1006/demo/Android/bmob-newim-demo/CookBook/app/libs/universal-image-loader-1.9.5.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="442dbfb517b9ab5cb5c6da7ebf8cc28ec5bd0375">
+        <dex dex="/media/cyq7on/0EFF10060EFF1006/demo/Android/bmob-newim-demo/CookBook/app/build/intermediates/transforms/dex/debug/folders/1000/2/universal-image-loader-1.9.5_7cab0ebc3b78e4b4566fd2e2a11487ceadacb3b0/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/media/cyq7on/0EFF0CEC0EFF0CEC/software/LinuxFile/android-sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="/media/cyq7on/0EFF10060EFF1006/demo/Android/bmob-newim-demo/CookBook/app/build/intermediates/pre-dexed/debug/support-annotations-23.4.0_922f83702df268acc28dc53e62478c946ebb4760.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cyq7on/.android/build-cache/f38c72924b19d3a9110d3babc2c48a3fa06cf47d/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/media/cyq7on/0EFF10060EFF1006/demo/Android/bmob-newim-demo/CookBook/app/build/intermediates/pre-dexed/debug/classes_65c6b92ec0e5bae72a4e4f54a9af859caf4e92df.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/media/cyq7on/0EFF10060EFF1006/demo/Android/bmob-newim-demo/CookBook/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="bdbafb9eb866f71df8572591d86692bef6d4c878">
+        <dex dex="/media/cyq7on/0EFF10060EFF1006/demo/Android/bmob-newim-demo/CookBook/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_65634f35e17b64b47bd39ee364b4cec878d3e9a3/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cyq7on/.android/build-cache/d465bad274aba95cfaa912f3771fdc82dd62b20a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="ea1fde77d2e5267a669f3a0015c924c80c7e7735">
+        <dex dex="/media/cyq7on/0EFF10060EFF1006/demo/Android/bmob-newim-demo/CookBook/app/build/intermediates/pre-dexed/debug/classes_16946a742f6d0d2e0d39a02348556d59b6753e14.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cyq7on/.android/build-cache/56389936307a8ee8c807c655e3a176c59ff358fb/output/jars/libs/rxjava-1.1.6.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="538a009aa2a31158b139be6a55f30cbe11bd02a3">
+        <dex dex="/media/cyq7on/0EFF10060EFF1006/demo/Android/bmob-newim-demo/CookBook/app/build/intermediates/pre-dexed/debug/rxjava-1.1.6_f3ff3b41481b43a3df5c796ab24e4e1e646610d1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cyq7on/.android/build-cache/43063b842c9c5c973a1079445c5df5ff95d64256/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="d89b45d635092afe0b971eb547293718f520f609">
+        <dex dex="/media/cyq7on/0EFF10060EFF1006/demo/Android/bmob-newim-demo/CookBook/app/build/intermediates/pre-dexed/debug/classes_822cee0cffe60949ec0b928bb574dce253e09ef1.jar" />
+    </item>
+
+</items>

@@ -1,23 +1,23 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 27
-    buildToolsVersion "26.0.3"
+    compileSdkVersion 23
+    buildToolsVersion '27.0.3'
 
     aaptOptions.cruncherEnabled = false
     aaptOptions.useNewCruncher = false
 
     defaultConfig {
-        applicationId "com.cyq7on.cookbook"
+        applicationId "cn.bmob.imdemo"
         minSdkVersion 14
         targetSdkVersion 22
-        versionCode 1
-        versionName "1.0"
+        versionCode 10
+        versionName "2.1.0"
     }
     buildTypes {
         release {
-            minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            minifyEnabled true
+//            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
             //自动删除 unaligned .apks
             applicationVariants.all { variant ->
                 variant.assemble.doLast {
@@ -44,26 +44,29 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_7
         targetCompatibility JavaVersion.VERSION_1_7
     }
+
+
 }
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile 'com.android.support.constraint:constraint-layout:1.1.0'
     testCompile 'junit:junit:4.12'
-    compile('com.android.support:appcompat-v7:27.1.1') {
+    compile('com.android.support:appcompat-v7:22.2.0') {
         exclude module: 'support-annotations'
     }
-    compile 'com.android.support:recyclerview-v7:27.1.1'
+    compile 'com.android.support:recyclerview-v7:22.2.0'
     compile 'com.jakewharton:butterknife:7.0.1'
     compile 'com.orhanobut:logger:1.4'
     compile 'org.greenrobot:eventbus:3.0.0'
-    //bmob-im:自2.0.5开始提供aar格式：包含BmobNewIM_xxxx.jar、androidasync_2.1.6.jar、bmob_im_notification_strings.xml
-    compile 'cn.bmob.android:bmob-im:2.0.5@aar'
-    //bmob-sdk:3.4.7
-    compile 'cn.bmob.android:bmob-sdk:3.4.7-aar'
-    compile 'com.github.bumptech.glide:glide:4.7.1'
-    annotationProcessor 'com.github.bumptech.glide:compiler:4.7.1'
+
+    //TODO 集成：1.2、配置IM SDK（bmob-im）版本和Data SDK（bmob-sdk）版本：特定版本的bmob-im依赖特定版本的bmob-sdk
+    compile 'cn.bmob.android:bmob-im:2.1.0@aar'
+    compile 'cn.bmob.android:bmob-sdk:3.6.1'
+
+    //汉字转拼音
+    compile 'com.github.promeg:tinypinyin:1.0.0'
     compile('com.yuyh.imgsel:library:2.0.2'){
         exclude module: 'support-v4'
     }
+
 }
