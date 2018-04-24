@@ -63,4 +63,9 @@
     <string name="info_dep">科室</string>
     <string name="info_record">病历</string>
 
+    <string name="upload_step">请填写做菜步骤</string>
+    <string name="upload_nutrient">请选择营养成分</string>
+    <string name="upload_image">请选择图片</string>
+    <string name="upload">上传</string>
+
 </resources>

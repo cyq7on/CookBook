@@ -43,7 +43,7 @@ public class RegisterActivity extends ParentWithNaviActivity {
     @Bind(R.id.rgSex)
     RadioGroup rgSex;
     private byte sex = 1;
-    private String[] items = {"能量", "蛋白质", "维生素A","维生素B","维生素C","维生素D","维生素E","钙铁锌硒"};
+
 
 
     @Override

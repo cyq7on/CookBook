@@ -2,6 +2,7 @@ package com.cyq7on.cookbook.bean;
 
 import com.cyq7on.cookbook.db.NewFriend;
 import cn.bmob.v3.BmobUser;
+import cn.bmob.v3.datatype.BmobRelation;
 
 /**
  * @author :smile
@@ -14,11 +15,7 @@ public class User extends BmobUser {
     private String age;
     private int sex;
     private int role;
-    private int depId;
-    //科室
-    private String department;
-    //病历
-    private String record;
+    public BmobRelation relationCollect = new BmobRelation();
 
     public User(){}
 
@@ -51,20 +48,7 @@ public class User extends BmobUser {
         this.sex = sex;
     }
 
-    public String getDepartment() {
-        return department;
-    }
 
-    public void setDepartment(String department) {
-        this.department = department;
-    }
-    public String getRecord() {
-        return record;
-    }
-
-    public void setRecord(String record) {
-        this.record = record;
-    }
 
     public int getRole() {
         return role;
@@ -74,13 +58,6 @@ public class User extends BmobUser {
         this.role = role;
     }
 
-    public int getDepId() {
-        return depId;
-    }
-
-    public void setDepId(int depId) {
-        this.depId = depId;
-    }
 
     @Override
     public String toString() {
@@ -89,9 +66,6 @@ public class User extends BmobUser {
                 ", age='" + age + '\'' +
                 ", sex=" + sex +
                 ", role=" + role +
-                ", depId=" + depId +
-                ", department='" + department + '\'' +
-                ", record='" + record + '\'' +
                 '}';
     }
 }

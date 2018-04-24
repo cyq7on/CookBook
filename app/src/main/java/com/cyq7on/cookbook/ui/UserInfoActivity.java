@@ -84,13 +84,7 @@ public class UserInfoActivity extends ParentWithNaviActivity {
         tv_name.setText(user.getUsername());
         tv_sex.setText(user.getSex() == 0 ? "男" : "女");
         tv_age.setText(user.getAge());
-        if(user.getRole() == 0){
-            tv_other.setText(user.getRecord());
-            tv_other_title.setText(R.string.info_record);
-        }else {
-            tv_other.setText(user.getDepartment());
-            tv_other_title.setText(R.string.info_dep);
-        }
+
     }
 
 //    @OnClick(com.cyq7on.dap.R.id.btn_add_friend)
@@ -140,11 +134,7 @@ public class UserInfoActivity extends ParentWithNaviActivity {
     public void onEditClick(View view){
         user.setUsername(tv_name.getText().toString());
         user.setAge(tv_age.getText().toString());
-        if(user.getRole() == 0){
-            user.setRecord(tv_other.getText().toString());
-        }else {
-            user.setDepartment(tv_other.getText().toString());
-        }
+
 
         user.update(getApplicationContext(),user.getObjectId(), new UpdateListener() {
             @Override

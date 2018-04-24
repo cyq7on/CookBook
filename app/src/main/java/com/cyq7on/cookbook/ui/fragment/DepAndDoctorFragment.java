@@ -102,9 +102,7 @@ public class DepAndDoctorFragment extends ParentWithNaviFragment {
             public void onSuccess(List<User> users) {
                 for (User user : users) {
                     Logger.d(user.getUsername());
-                    if(user.getRole() == 1){
-                        list.get(user.getDepId()).getList().add(user);
-                    }
+
                 }
                 swRefresh.setRefreshing(false);
                 adapter.notifyDataSetChanged();
