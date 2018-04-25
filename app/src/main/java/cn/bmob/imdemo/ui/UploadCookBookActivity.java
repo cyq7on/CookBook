@@ -34,6 +34,8 @@ public class UploadCookBookActivity extends ParentWithNaviActivity {
 
     private static final int REQUEST_CODE = 0x1001;
     private CookBook cookBook = new CookBook();
+    @Bind(R.id.et_name)
+    EditText etName;
     @Bind(R.id.et_step)
     EditText etStep;
     @Bind(R.id.et_image)
@@ -73,7 +75,12 @@ public class UploadCookBookActivity extends ParentWithNaviActivity {
         btnUpload.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                final String name = etName.getText().toString();
                 final String step = etStep.getText().toString();
+                if(TextUtils.isEmpty(name)){
+                    toast("请填写菜名");
+                    return;
+                }
                 if(TextUtils.isEmpty(step)){
                     toast("请填写步骤");
                     return;
@@ -87,8 +94,9 @@ public class UploadCookBookActivity extends ParentWithNaviActivity {
                             if(e == null){
                                 Logger.d(bmobFile.getFileUrl());
                                 cookBook.imageUrl = bmobFile.getFileUrl();
-                                cookBook.creatUserId = user.getObjectId();
+                                cookBook.createUserId = user.getObjectId();
                                 cookBook.step = step;
+                                cookBook.name = name;
                                 cookBook.save(new SaveListener<String>() {
                                     @Override
                                     public void done(String s, BmobException e) {
