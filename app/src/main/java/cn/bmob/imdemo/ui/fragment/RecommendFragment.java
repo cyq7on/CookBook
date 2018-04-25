@@ -84,7 +84,6 @@ public class RecommendFragment extends ParentWithNaviFragment {
         adapter = new CookBookAdapter(getActivity(), mutlipleItem, null);
         rcView.setAdapter(adapter);
         rcView.setLayoutManager(new LinearLayoutManager(getActivity()));
-        query();
         swRefresh.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override
             public void onRefresh() {
@@ -92,6 +91,13 @@ public class RecommendFragment extends ParentWithNaviFragment {
             }
         });
         return rootView;
+    }
+
+    @Override
+    public void onStart() {
+        super.onStart();
+        swRefresh.setRefreshing(true);
+        query();
     }
 
     protected void query() {
