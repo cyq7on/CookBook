@@ -109,6 +109,9 @@ public class RecommendFragment extends ParentWithNaviFragment {
                 swRefresh.setRefreshing(false);
                 if (e == null) {
                     if (list != null && list.size() > 0) {
+                        for (CookBook cookBook : list) {
+                            Logger.d(cookBook.toString());
+                        }
                         adapter.bindDatas(list);
                     } else {
                         toast("暂无信息");

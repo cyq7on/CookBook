@@ -6,7 +6,7 @@ import cn.bmob.v3.BmobUser;
 /**
  * @Description: 
  * @author: cyq7on
- * @date: 2018/4/25 14:16
+ * @date: 2018/4/25 16:51
  * @version: V1.0
  */
 public class User extends BmobUser {

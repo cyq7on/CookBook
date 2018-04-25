@@ -19,4 +19,17 @@ public class CookBook extends BmobObject {
     public List<String> nutrientList = new ArrayList<>();
     public String imageUrl;
     public BmobRelation collectUsers = new BmobRelation();
+//    public List<User> collectList = new ArrayList<>();
+
+    @Override
+    public String toString() {
+        return "CookBook{" +
+                "name='" + name + '\'' +
+                ", step='" + step + '\'' +
+                ", createUserId='" + createUserId + '\'' +
+                ", nutrientList=" + nutrientList +
+                ", imageUrl='" + imageUrl + '\'' +
+                ", collectUsers=" + collectUsers +
+                '}';
+    }
 }

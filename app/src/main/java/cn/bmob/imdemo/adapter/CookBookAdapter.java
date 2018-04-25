@@ -13,8 +13,9 @@ import cn.bmob.imdemo.adapter.base.BaseRecyclerAdapter;
 import cn.bmob.imdemo.adapter.base.BaseRecyclerHolder;
 import cn.bmob.imdemo.adapter.base.IMutlipleItem;
 import cn.bmob.imdemo.bean.CookBook;
+import cn.bmob.imdemo.bean.User;
 import cn.bmob.v3.BmobUser;
-import cn.bmob.v3.datatype.BmobRelation;
+import cn.bmob.v3.datatype.BmobPointer;
 import cn.bmob.v3.exception.BmobException;
 import cn.bmob.v3.listener.UpdateListener;
 
@@ -33,7 +34,7 @@ public class CookBookAdapter extends BaseRecyclerAdapter<CookBook> {
 
     @Override
     public void bindView(BaseRecyclerHolder holder, final CookBook cookBook, int position) {
-        final BmobUser u = BmobUser.getCurrentUser();
+        final User u = BmobUser.getCurrentUser(User.class);
         StringBuilder stringBuilder = new StringBuilder("菜名：").append(cookBook.name).append("\n")
                 .append("步骤：").append(cookBook.step).append("\n");
         int size = cookBook.nutrientList.size();
@@ -47,8 +48,7 @@ public class CookBookAdapter extends BaseRecyclerAdapter<CookBook> {
         holder.setText(R.id.tv_info,stringBuilder.toString());
         holder.setImageView(cookBook.imageUrl,R.mipmap.ic_launcher,R.id.iv);
         final TextView collect = holder.getView(R.id.tvCollect);
-        final BmobRelation collectUsers = cookBook.collectUsers;
-        boolean contains = collectUsers.getObjects().contains(u);
+        boolean contains = cookBook.collectUsers.getObjects().contains(new BmobPointer(u));
         Logger.d(contains + "");
         if(contains){
             collect.setText("已收藏");
@@ -57,7 +57,9 @@ public class CookBookAdapter extends BaseRecyclerAdapter<CookBook> {
             collect.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    collectUsers.add(u);
+
+                    cookBook.collectUsers.add(u);
+//                    cookBook.collectList.add(u);
                     cookBook.update(new UpdateListener() {
                         @Override
                         public void done(BmobException e) {
