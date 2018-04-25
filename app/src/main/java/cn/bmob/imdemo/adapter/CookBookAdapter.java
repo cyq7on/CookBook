@@ -25,6 +25,7 @@ import cn.bmob.v3.listener.UpdateListener;
  * @date :2016-04-27-14:18
  */
 public class CookBookAdapter extends BaseRecyclerAdapter<CookBook> {
+    private boolean contains;
 
 
     public CookBookAdapter(Context context, IMutlipleItem<CookBook> items, Collection<CookBook> datas) {
@@ -47,16 +48,33 @@ public class CookBookAdapter extends BaseRecyclerAdapter<CookBook> {
         holder.setText(R.id.tv_info,stringBuilder.toString());
         holder.setImageView(cookBook.imageUrl,R.mipmap.ic_launcher,R.id.iv);
         final TextView collect = holder.getView(R.id.tvCollect);
-        boolean contains = cookBook.collectList.contains(u);
+        contains = cookBook.collectList.contains(u);
         Logger.d(contains + "");
         if(contains){
             collect.setText("已收藏");
         }else {
             collect.setText("未收藏");
-            collect.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View view) {
-
+        }
+        collect.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if(contains){
+                    cookBook.collectUsers.remove(u);
+                    cookBook.collectList.remove(u);
+                    cookBook.update(new UpdateListener() {
+                        @Override
+                        public void done(BmobException e) {
+                            if(e == null){
+                                toast("取消收藏成功");
+                                collect.setText("未收藏");
+                                contains = false;
+                            }else {
+                                toast("取消收藏失败");
+                                Logger.e(e);
+                            }
+                        }
+                    });
+                }else {
                     cookBook.collectUsers.add(u);
                     cookBook.collectList.add(u);
                     cookBook.update(new UpdateListener() {
@@ -65,6 +83,7 @@ public class CookBookAdapter extends BaseRecyclerAdapter<CookBook> {
                             if(e == null){
                                 toast("收藏成功");
                                 collect.setText("已收藏");
+                                contains = true;
                             }else {
                                 toast("收藏失败");
                                 Logger.e(e);
@@ -72,8 +91,8 @@ public class CookBookAdapter extends BaseRecyclerAdapter<CookBook> {
                         }
                     });
                 }
-            });
-        }
+            }
+        });
     }
 
 }

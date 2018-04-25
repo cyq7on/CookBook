@@ -1,6 +1,8 @@
 package cn.bmob.imdemo.base;
 
 import android.graphics.drawable.BitmapDrawable;
+import android.os.Bundle;
+import android.support.annotation.Nullable;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -8,6 +10,8 @@ import android.widget.TextView;
 
 import cn.bmob.imdemo.R;
 import cn.bmob.imdemo.base.ParentWithNaviActivity.ToolBarListener;
+import cn.bmob.imdemo.bean.User;
+import cn.bmob.v3.BmobUser;
 
 /**封装了导航条的Fragment类均需继承该类
  * @author :smile
@@ -22,6 +26,7 @@ public abstract class ParentWithNaviFragment extends BaseFragment {
     public TextView tv_right;
     public ImageView tv_left;
     public LinearLayout ll_navi;
+    public User user;
 
     /**
      * 初始化导航条
@@ -35,6 +40,12 @@ public abstract class ParentWithNaviFragment extends BaseFragment {
         tv_right.setOnClickListener(clickListener);
         tv_title.setText(title());
         refreshTop();
+    }
+
+    @Override
+    public void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        user = BmobUser.getCurrentUser(User.class);
     }
 
     View.OnClickListener clickListener = new View.OnClickListener() {

@@ -71,13 +71,16 @@
 
         <TextView
             android:id="@+id/et_nutrient"
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="@dimen/height_title"
             android:background="@color/transparent"
             android:hint="@string/upload_nutrient"
             android:gravity="center_vertical"
             android:paddingLeft="15dip"
             android:paddingRight="15dip"
+            android:singleLine="true"
+            android:maxEms="5"
+            android:ellipsize="end"
             android:drawableRight="@mipmap/register_bottom_arrow"
             android:textColorHint="#ffdddddd" />
 

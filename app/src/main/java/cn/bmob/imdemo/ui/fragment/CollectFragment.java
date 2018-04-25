@@ -20,7 +20,7 @@ public class CollectFragment extends RecommendFragment {
     protected void query() {
         BmobQuery<CookBook> query = new BmobQuery<>();
         BmobQuery<User> innerQuery = new BmobQuery<>();
-//        innerQuery.addWhereExists("image", true);
+        innerQuery.addWhereEqualTo("objectId",user.getObjectId());
         query.addWhereMatchesQuery("collectUsers", "_User", innerQuery);
         query.order("-updatedAt");
         query.findObjects(new FindListener<CookBook>() {
@@ -31,10 +31,16 @@ public class CollectFragment extends RecommendFragment {
                     if (list != null && list.size() > 0) {
                         adapter.bindDatas(list);
                     } else {
-                        toast("暂无信息");
+                        if(getUserVisibleHint()){
+                            toast("暂无信息");
+                        }
+                        adapter.bindDatas(list);
+
                     }
                 } else {
-                    toast("获取信息出错");
+                    if(getUserVisibleHint()){
+                        toast("获取信息出错");
+                    }
                     Logger.e(e);
                 }
             }

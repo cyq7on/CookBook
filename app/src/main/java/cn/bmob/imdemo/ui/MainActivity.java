@@ -3,14 +3,10 @@ package cn.bmob.imdemo.ui;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
-import android.text.TextUtils;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.orhanobut.logger.Logger;
-
-import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
 
 import butterknife.Bind;
@@ -25,15 +21,10 @@ import cn.bmob.imdemo.ui.fragment.RecommendFragment;
 import cn.bmob.imdemo.ui.fragment.SetFragment;
 import cn.bmob.imdemo.util.IMMLeaks;
 import cn.bmob.newim.BmobIM;
-import cn.bmob.newim.bean.BmobIMUserInfo;
-import cn.bmob.newim.core.ConnectionStatus;
 import cn.bmob.newim.event.MessageEvent;
 import cn.bmob.newim.event.OfflineMessageEvent;
-import cn.bmob.newim.listener.ConnectListener;
-import cn.bmob.newim.listener.ConnectStatusChangeListener;
 import cn.bmob.newim.notification.BmobNotificationManager;
 import cn.bmob.v3.BmobUser;
-import cn.bmob.v3.exception.BmobException;
 
 /**
  * @author :smile
@@ -69,7 +60,7 @@ public class MainActivity extends BaseActivity {
         final User user = BmobUser.getCurrentUser(User.class);
         //TODO 连接：3.1、登录成功、注册成功或处于登录状态重新打开应用后执行连接IM服务器的操作
         //判断用户是否登录，并且连接状态不是已连接，则进行连接操作
-        if (!TextUtils.isEmpty(user.getObjectId()) &&
+        /*if (!TextUtils.isEmpty(user.getObjectId()) &&
                 BmobIM.getInstance().getCurrentStatus().getCode() != ConnectionStatus.CONNECTED.getCode()) {
             BmobIM.connect(user.getObjectId(), new ConnectListener() {
                 @Override
@@ -94,7 +85,7 @@ public class MainActivity extends BaseActivity {
                     Logger.i(BmobIM.getInstance().getCurrentStatus().getMsg());
                 }
             });
-        }
+        }*/
         //解决leancanary提示InputMethodManager内存泄露的问题
         IMMLeaks.fixFocusedViewLeak(getApplication());
     }

@@ -117,6 +117,7 @@ public class RecommendFragment extends ParentWithNaviFragment {
                         if(getUserVisibleHint()){
                             toast("暂无信息");
                         }
+                        adapter.bindDatas(list);
 
                     }
                 } else {

@@ -122,13 +122,29 @@ public class UploadCookBookActivity extends ParentWithNaviActivity {
     }
 
     private void showDialog() {
+        cookBook.nutrientList.clear();
         AlertDialog dialog = new AlertDialog.Builder(this).setTitle("营养成分")
                 .setNegativeButton("取消", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
                         cookBook.nutrientList.clear();
                     }
-                }).setPositiveButton("确定", null)
+                }).setPositiveButton("确定", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        StringBuilder stringBuilder = new StringBuilder();
+                        for (int j = 0; j < cookBook.nutrientList.size(); j++) {
+                            stringBuilder.append(cookBook.nutrientList.get(j)).append("\t");
+                            //textView 设置省略号无效
+                            if(j > 3){
+                                stringBuilder.append("...");
+                                break;
+                            }
+                        }
+                        etNutrient.setText(stringBuilder);
+
+                    }
+                })
                 .setMultiChoiceItems(items, null, new DialogInterface.OnMultiChoiceClickListener() {
 
                     @Override
