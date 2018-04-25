@@ -1,14 +1,14 @@
 <component name="libraryTable">
   <library name="Gradle: com.android.support:animated-vector-drawable-23.4.0">
     <CLASSES>
-      <root url="file://$USER_HOME$/.android/build-cache/71bebd2c0d70ac7b71c989693f86a3747bcd8510/output/res" />
-      <root url="jar://$USER_HOME$/.android/build-cache/71bebd2c0d70ac7b71c989693f86a3747bcd8510/output/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.android/build-cache/dcc359dc3b76f52516f0fd6f373dc38975430f20/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/dcc359dc3b76f52516f0fd6f373dc38975430f20/output/res" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$PROJECT_DIR$/../../../../../0EFF0CEC0EFF0CEC/software/LinuxFile/android-sdk/extras/android/m2repository/com/android/support/animated-vector-drawable/23.4.0/animated-vector-drawable-23.4.0-javadoc.jar!/" />
+      <root url="jar://D:/software/windows/AndroidSdk/extras/android/m2repository/com/android/support/animated-vector-drawable/23.4.0/animated-vector-drawable-23.4.0-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://$PROJECT_DIR$/../../../../../0EFF0CEC0EFF0CEC/software/LinuxFile/android-sdk/extras/android/m2repository/com/android/support/animated-vector-drawable/23.4.0/animated-vector-drawable-23.4.0-sources.jar!/" />
+      <root url="jar://D:/software/windows/AndroidSdk/extras/android/m2repository/com/android/support/animated-vector-drawable/23.4.0/animated-vector-drawable-23.4.0-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

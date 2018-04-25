@@ -8,7 +8,7 @@ android {
     aaptOptions.useNewCruncher = false
 
     defaultConfig {
-        applicationId "cn.bmob.imdemo"
+        applicationId "cn.cyq7on.cookbook"
         minSdkVersion 14
         targetSdkVersion 22
         versionCode 10

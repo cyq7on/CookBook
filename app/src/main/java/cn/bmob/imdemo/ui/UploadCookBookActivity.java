@@ -86,6 +86,7 @@ public class UploadCookBookActivity extends ParentWithNaviActivity {
                         public void done(BmobException e) {
                             if(e == null){
                                 Logger.d(bmobFile.getFileUrl());
+                                cookBook.imageUrl = bmobFile.getFileUrl();
                                 cookBook.creatUserId = user.getObjectId();
                                 cookBook.step = step;
                                 cookBook.save(new SaveListener<String>() {
@@ -93,6 +94,7 @@ public class UploadCookBookActivity extends ParentWithNaviActivity {
                                     public void done(String s, BmobException e) {
                                         if(e == null){
                                             toast("上传成功");
+                                            finish();
                                         }else {
                                             toast("上传失败");
                                             Logger.d(e.getMessage());
