@@ -107,13 +107,13 @@
     <orderEntry type="library" exported="" name="Gradle: com.github.promeg:tinypinyin:1.0.0@jar" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="Gradle: junit:junit:4.12@jar" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="Gradle: org.hamcrest:hamcrest-core:1.3@jar" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: __local_jars__:/media/cyq7on/0EFF10060EFF1006/demo/Android/bmob-newim-demo/CookBook/app/libs/universal-image-loader-1.9.5.jar:unspecified@jar" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.android.support:appcompat-v7-23.4.0" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.jakewharton:butterknife:7.0.1@jar" level="project" />
     <orderEntry type="library" exported="" name="Gradle: org.greenrobot:eventbus:3.0.0@jar" level="project" />
     <orderEntry type="library" exported="" name="Gradle: cn.bmob.android:bmob-im-2.1.0" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.yuyh.easyadapter:library-1.1.0" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.android.support:animated-vector-drawable-23.4.0" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: __local_jars__:D.\Demo\CookBook\app\libs\universal-image-loader-1.9.5.jar:unspecified@jar" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.android.support:support-v4-23.4.0" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.android.support:support-annotations:23.4.0@jar" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.android.support:recyclerview-v7-23.4.0" level="project" />

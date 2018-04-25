@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: com.yuyh.imgsel:library-2.0.2">
     <CLASSES>
-      <root url="file://$USER_HOME$/.android/build-cache/e83aee079a47fa5683f3e19c48090ecf486a6473/output/res" />
-      <root url="jar://$USER_HOME$/.android/build-cache/e83aee079a47fa5683f3e19c48090ecf486a6473/output/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.android/build-cache/d465bad274aba95cfaa912f3771fdc82dd62b20a/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/d465bad274aba95cfaa912f3771fdc82dd62b20a/output/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

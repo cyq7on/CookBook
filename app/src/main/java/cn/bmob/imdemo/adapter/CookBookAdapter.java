@@ -15,7 +15,6 @@ import cn.bmob.imdemo.adapter.base.IMutlipleItem;
 import cn.bmob.imdemo.bean.CookBook;
 import cn.bmob.imdemo.bean.User;
 import cn.bmob.v3.BmobUser;
-import cn.bmob.v3.datatype.BmobPointer;
 import cn.bmob.v3.exception.BmobException;
 import cn.bmob.v3.listener.UpdateListener;
 
@@ -48,7 +47,7 @@ public class CookBookAdapter extends BaseRecyclerAdapter<CookBook> {
         holder.setText(R.id.tv_info,stringBuilder.toString());
         holder.setImageView(cookBook.imageUrl,R.mipmap.ic_launcher,R.id.iv);
         final TextView collect = holder.getView(R.id.tvCollect);
-        boolean contains = cookBook.collectUsers.getObjects().contains(new BmobPointer(u));
+        boolean contains = cookBook.collectList.contains(u);
         Logger.d(contains + "");
         if(contains){
             collect.setText("已收藏");
@@ -59,7 +58,7 @@ public class CookBookAdapter extends BaseRecyclerAdapter<CookBook> {
                 public void onClick(View view) {
 
                     cookBook.collectUsers.add(u);
-//                    cookBook.collectList.add(u);
+                    cookBook.collectList.add(u);
                     cookBook.update(new UpdateListener() {
                         @Override
                         public void done(BmobException e) {

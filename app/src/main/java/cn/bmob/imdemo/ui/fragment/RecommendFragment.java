@@ -114,10 +114,15 @@ public class RecommendFragment extends ParentWithNaviFragment {
                         }
                         adapter.bindDatas(list);
                     } else {
-                        toast("暂无信息");
+                        if(getUserVisibleHint()){
+                            toast("暂无信息");
+                        }
+
                     }
                 } else {
-                    toast("获取信息出错");
+                    if(getUserVisibleHint()){
+                        toast("获取信息出错");
+                    }
                     Logger.e(e);
                 }
             }
