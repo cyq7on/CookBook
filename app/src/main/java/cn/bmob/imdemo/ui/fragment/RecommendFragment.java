@@ -58,6 +58,12 @@ public class RecommendFragment extends ParentWithNaviFragment {
         };
     }
 
+    @Override
+    public void onHiddenChanged(boolean hidden) {
+        super.onHiddenChanged(hidden);
+        setUserVisibleHint(!hidden);
+    }
+
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
@@ -114,14 +120,14 @@ public class RecommendFragment extends ParentWithNaviFragment {
                         }
                         adapter.bindDatas(list);
                     } else {
-                        if(getUserVisibleHint()){
+                        if (getUserVisibleHint()) {
                             toast("暂无信息");
                         }
                         adapter.bindDatas(list);
 
                     }
                 } else {
-                    if(getUserVisibleHint()){
+                    if (getUserVisibleHint()) {
                         toast("获取信息出错");
                     }
                     Logger.e(e);
