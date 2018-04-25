@@ -32,7 +32,7 @@ public class BaseRecyclerHolder extends RecyclerView.ViewHolder {
      * @param viewId
      * @return
      */
-    protected <T extends View> T getView(int viewId) {
+    public  <T extends View> T getView(int viewId) {
         View view = mViews.get(viewId);
         if (view == null) {
             view = itemView.findViewById(viewId);

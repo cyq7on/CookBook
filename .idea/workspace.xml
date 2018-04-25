@@ -11,9 +11,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4c41c45-b412-4041-8102-b3cc1781c957" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/cn/bmob/imdemo/bean/CookBook.java" afterPath="$PROJECT_DIR$/app/src/main/java/cn/bmob/imdemo/bean/CookBook.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/cn/bmob/imdemo/bean/User.java" afterPath="$PROJECT_DIR$/app/src/main/java/cn/bmob/imdemo/bean/User.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/cn/bmob/imdemo/ui/UploadCookBookActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/cn/bmob/imdemo/ui/UploadCookBookActivity.java" />
+      <change beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" />
+      <change beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
+      <change beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/cn/bmob/imdemo/adapter/CookBookAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/cn/bmob/imdemo/adapter/CookBookAdapter.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/cn/bmob/imdemo/adapter/base/BaseRecyclerHolder.java" afterPath="$PROJECT_DIR$/app/src/main/java/cn/bmob/imdemo/adapter/base/BaseRecyclerHolder.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/cn/bmob/imdemo/ui/fragment/CollectFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/cn/bmob/imdemo/ui/fragment/CollectFragment.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_cookbook.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_cookbook.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -36,21 +45,39 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <file leaf-file-name="UploadCookBookActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/bmob/imdemo/ui/UploadCookBookActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-              <folding />
+            <state relative-caret-position="588">
+              <caret line="99" column="25" lean-forward="false" selection-start-line="99" selection-start-column="25" selection-end-line="99" selection-end-column="25" />
+              <folding>
+                <element signature="e#3460#4075#0" expanded="true" />
+                <element signature="e#4074#4075#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UploadCookBookActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/bmob/imdemo/ui/UploadCookBookActivity.java">
+      <file leaf-file-name="CookBookAdapter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/bmob/imdemo/adapter/CookBookAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="658">
-              <caret line="91" column="21" lean-forward="false" selection-start-line="91" selection-start-column="21" selection-end-line="91" selection-end-column="21" />
+            <state relative-caret-position="260">
+              <caret line="44" column="9" lean-forward="false" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
+              <folding>
+                <element signature="e#2047#2730#0" expanded="true" />
+                <element signature="e#2228#2696#0" expanded="true" />
+                <element signature="e#2695#2696#0" expanded="true" />
+                <element signature="e#2729#2730#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseRecyclerHolder.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/bmob/imdemo/adapter/base/BaseRecyclerHolder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="34" column="11" lean-forward="false" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -59,33 +86,62 @@
       <file leaf-file-name="CollectFragment.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/bmob/imdemo/ui/fragment/CollectFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="21" column="56" lean-forward="false" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
+            <state relative-caret-position="168">
+              <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
               <folding>
-                <element signature="e#1101#1102#0" expanded="true" />
+                <element signature="e#752#1289#0" expanded="true" />
+                <element signature="e#1288#1289#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RecommendFragment.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="RecommendFragment.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/bmob/imdemo/ui/fragment/RecommendFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+            <state relative-caret-position="533">
+              <caret line="121" column="5" lean-forward="false" selection-start-line="121" selection-start-column="5" selection-end-line="121" selection-end-column="5" />
               <folding>
                 <element signature="e#2701#2854#0" expanded="true" />
                 <element signature="e#2853#2854#0" expanded="true" />
+                <element signature="e#3164#3701#0" expanded="true" />
+                <element signature="e#3700#3701#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CookBook.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CookBook.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/bmob/imdemo/bean/CookBook.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state relative-caret-position="217">
+              <caret line="20" column="36" lean-forward="false" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_upload_cook_book.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_upload_cook_book.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-21">
+              <caret line="23" column="25" lean-forward="false" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+              <folding>
+                <element signature="e#692#713#0" expanded="true" />
+                <element signature="e#2069#2090#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="strings.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="618">
+              <caret line="46" column="36" lean-forward="false" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -95,7 +151,7 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/bmob/imdemo/bean/User.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+              <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -105,48 +161,12 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_cookbook.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
-              <caret line="17" column="15" lean-forward="false" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+              <caret line="17" column="38" lean-forward="false" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="38" />
               <folding />
             </state>
           </provider>
           <provider editor-type-id="android-designer2">
             <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SwipeRefreshLayout.java" pinned="false" current-in-tab="false">
-        <entry file="jar://D:/software/windows/AndroidSdk/extras/android/m2repository/com/android/support/support-v4/23.4.0/support-v4-23.4.0-sources.jar!/android/support/v4/widget/SwipeRefreshLayout.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2830">
-              <caret line="554" column="17" lean-forward="false" selection-start-line="554" selection-start-column="17" selection-end-line="554" selection-end-column="17" />
-              <folding>
-                <element signature="e#13778#13779#0" expanded="true" />
-                <element signature="e#13814#13815#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-          <provider editor-type-id="android-manifest">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-925">
-              <caret line="5" column="35" lean-forward="false" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/bmob/imdemo/ui/MainActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="84" column="2" lean-forward="false" selection-start-line="84" selection-start-column="2" selection-end-line="84" selection-end-column="2" />
-              <folding />
-            </state>
           </provider>
         </entry>
       </file>
@@ -2053,17 +2073,19 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/cn/bmob/imdemo/ui/MainActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/cn/bmob/imdemo/ui/fragment/CollectFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/cn/bmob/imdemo/adapter/CookBookAdapter.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/cn/bmob/imdemo/ui/UploadCookBookActivity.java" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/.gitignore" />
-        <option value="$PROJECT_DIR$/app/src/main/java/cn/bmob/imdemo/ui/fragment/RecommendFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/item_cookbook.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/cn/bmob/imdemo/bean/User.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/cn/bmob/imdemo/bean/CookBook.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_upload_cook_book.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/cn/bmob/imdemo/ui/UploadCookBookActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/item_cookbook.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/cn/bmob/imdemo/adapter/base/BaseRecyclerHolder.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/cn/bmob/imdemo/adapter/CookBookAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/cn/bmob/imdemo/ui/fragment/CollectFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/cn/bmob/imdemo/ui/fragment/RecommendFragment.java" />
       </list>
     </option>
   </component>
@@ -2159,6 +2181,16 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="imdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="adapter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CookBook" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CookBook" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="imdemo" type="462c0819:PsiDirectoryNode" />
               <item name="bean" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -2233,8 +2265,8 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="show.do.not.ask.upgrade.gradle.plugin" value="2.3.3" />
     <property name="device.picker.selection" value="Nexus_5X_API_27_x86" />
-    <property name="DEBUGGABLE_DEVICE" value="samsung-sch_i959-4d00a2ea4bcf6189" />
-    <property name="DEBUGGABLE_PROCESS" value="cn.bmob.imdemo" />
+    <property name="DEBUGGABLE_DEVICE" value="Nexus_5X_API_27_x86 [emulator-5554]" />
+    <property name="DEBUGGABLE_PROCESS" value="cn.cyq7on.cookbook" />
     <property name="SHOW_ALL_PROCESSES" value="false" />
     <property name="DEBUGGER_ID" value="Auto" />
   </component>
@@ -2449,7 +2481,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3992891" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3984375" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -2468,11 +2500,23 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/cn/bmob/imdemo/ui/UploadCookBookActivity.java</url>
-          <line>75</line>
+          <line>78</line>
           <properties />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/cn/bmob/imdemo/adapter/CookBookAdapter.java</url>
+          <line>50</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/cn/bmob/imdemo/ui/fragment/RecommendFragment.java</url>
+          <line>110</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="1" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -2489,7 +2533,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1407">
           <caret line="99" column="37" lean-forward="false" selection-start-line="99" selection-start-column="37" selection-end-line="99" selection-end-column="37" />
-          <folding />
+          <folding>
+            <element signature="e#3460#4075#0" expanded="true" />
+            <element signature="e#4074#4075#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2548,7 +2595,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
           <caret line="42" column="21" lean-forward="true" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
-          <folding />
+          <folding>
+            <element signature="e#3460#4075#0" expanded="true" />
+            <element signature="e#4074#4075#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2744,17 +2794,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_upload_cook_book.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1302">
-          <caret line="62" column="65" lean-forward="false" selection-start-line="62" selection-start-column="65" selection-end-line="62" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-210">
@@ -2767,7 +2806,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3358">
           <caret line="180" column="38" lean-forward="true" selection-start-line="180" selection-start-column="38" selection-end-line="180" selection-end-column="38" />
-          <folding />
+          <folding>
+            <element signature="e#3460#4075#0" expanded="true" />
+            <element signature="e#4074#4075#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2818,7 +2860,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
           <caret line="111" column="5" lean-forward="true" selection-start-line="111" selection-start-column="5" selection-end-line="111" selection-end-column="5" />
-          <folding />
+          <folding>
+            <element signature="e#3460#4075#0" expanded="true" />
+            <element signature="e#4074#4075#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2826,7 +2871,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3358">
           <caret line="180" column="38" lean-forward="true" selection-start-line="180" selection-start-column="38" selection-end-line="180" selection-end-column="38" />
-          <folding />
+          <folding>
+            <element signature="e#3460#4075#0" expanded="true" />
+            <element signature="e#4074#4075#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2842,14 +2890,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="5" column="35" lean-forward="false" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1029">
-          <caret line="49" column="28" lean-forward="false" selection-start-line="49" selection-start-column="28" selection-end-line="49" selection-end-column="28" />
           <folding />
         </state>
       </provider>
@@ -2880,13 +2920,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/bmob/imdemo/adapter/base/BaseRecyclerHolder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2040">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/default_head.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -2905,13 +2938,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="32">
           <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/bmob/imdemo/adapter/CookBookAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="33" column="76" lean-forward="true" selection-start-line="33" selection-start-column="76" selection-end-line="33" selection-end-column="76" />
         </state>
       </provider>
     </entry>
@@ -2963,8 +2989,8 @@
         <state relative-caret-position="2830">
           <caret line="554" column="17" lean-forward="false" selection-start-line="554" selection-start-column="17" selection-end-line="554" selection-end-column="17" />
           <folding>
-            <element signature="e#13778#13779#0" expanded="true" />
-            <element signature="e#13814#13815#0" expanded="true" />
+            <element signature="e#13778#13779#0" expanded="false" />
+            <element signature="e#13814#13815#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2977,20 +3003,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/bmob/imdemo/ui/fragment/CollectFragment.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/bmob/imdemo/bean/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="21" column="56" lean-forward="false" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
+        <state relative-caret-position="105">
+          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="618">
+          <caret line="46" column="36" lean-forward="false" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_upload_cook_book.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-21">
+          <caret line="23" column="25" lean-forward="false" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
           <folding>
-            <element signature="e#1101#1102#0" expanded="true" />
+            <element signature="e#692#713#0" expanded="true" />
+            <element signature="e#2069#2090#0" expanded="true" />
           </folding>
         </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/bmob/imdemo/ui/UploadCookBookActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="658">
-          <caret line="91" column="21" lean-forward="false" selection-start-line="91" selection-start-column="21" selection-end-line="91" selection-end-column="21" />
+        <state relative-caret-position="588">
+          <caret line="99" column="25" lean-forward="false" selection-start-line="99" selection-start-column="25" selection-end-line="99" selection-end-column="25" />
+          <folding>
+            <element signature="e#3460#4075#0" expanded="true" />
+            <element signature="e#4074#4075#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/software/windows/AndroidSdk/platforms/android-23/android.jar!/java/util/List.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="18" column="12" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
           <folding />
         </state>
       </provider>
@@ -2998,7 +3055,7 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_cookbook.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
-          <caret line="17" column="15" lean-forward="false" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+          <caret line="17" column="38" lean-forward="false" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="38" />
           <folding />
         </state>
       </provider>
@@ -3006,30 +3063,56 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/bmob/imdemo/ui/fragment/RecommendFragment.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/bmob/imdemo/adapter/CookBookAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+        <state relative-caret-position="260">
+          <caret line="44" column="9" lean-forward="false" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
           <folding>
-            <element signature="e#2701#2854#0" expanded="true" />
-            <element signature="e#2853#2854#0" expanded="true" />
+            <element signature="e#2047#2730#0" expanded="true" />
+            <element signature="e#2228#2696#0" expanded="true" />
+            <element signature="e#2695#2696#0" expanded="true" />
+            <element signature="e#2729#2730#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/bmob/imdemo/bean/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/bmob/imdemo/bean/CookBook.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="217">
+          <caret line="20" column="36" lean-forward="false" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="36" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/bmob/imdemo/ui/fragment/CollectFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <element signature="e#752#1289#0" expanded="true" />
+            <element signature="e#1288#1289#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/bmob/imdemo/adapter/base/BaseRecyclerHolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="34" column="11" lean-forward="false" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/bmob/imdemo/ui/fragment/RecommendFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="533">
+          <caret line="121" column="5" lean-forward="false" selection-start-line="121" selection-start-column="5" selection-end-line="121" selection-end-column="5" />
+          <folding>
+            <element signature="e#2701#2854#0" expanded="true" />
+            <element signature="e#2853#2854#0" expanded="true" />
+            <element signature="e#3164#3701#0" expanded="true" />
+            <element signature="e#3700#3701#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
