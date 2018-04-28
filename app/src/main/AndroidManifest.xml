@@ -2,7 +2,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="cn.bmob.imdemo">
 
-
     <!-- TODO 1.4、配置IM SDK需要的权限 -->
     <uses-permission android:name="android.permission.INTERNET" />
     <!-- 监听网络的变化 -->
@@ -22,7 +21,6 @@
     <uses-permission android:name="android.permission.VIBRATE" />
     <!-- WIFI状态 -->
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-
 
     <application
         android:name=".BmobIMApplication"
@@ -52,7 +50,6 @@
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
 
-
         <!-- TODO 集成：1.5、配置IM SDK需要的广播和服务 -->
         <receiver android:name="cn.bmob.newim.core.ConnectChangeReceiver">
             <intent-filter>
@@ -77,7 +74,8 @@
             android:name="Bmob_APP_KEY"
             android:value="49103683ad7858f0b3206f3b96d44d71" />
 
-        <activity android:name=".ui.UploadCookBookActivity"></activity>
+        <activity android:name=".ui.UploadCookBookActivity" />
+        <activity android:name=".ui.UploadDietActivity"></activity>
     </application>
 
 </manifest>

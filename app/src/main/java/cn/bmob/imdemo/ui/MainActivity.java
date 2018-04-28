@@ -16,7 +16,7 @@ import cn.bmob.imdemo.base.ParentWithNaviFragment;
 import cn.bmob.imdemo.bean.User;
 import cn.bmob.imdemo.db.NewFriendManager;
 import cn.bmob.imdemo.event.RefreshEvent;
-import cn.bmob.imdemo.ui.fragment.CollectFragment;
+import cn.bmob.imdemo.ui.fragment.PersonalFragment;
 import cn.bmob.imdemo.ui.fragment.RecommendFragment;
 import cn.bmob.imdemo.ui.fragment.SetFragment;
 import cn.bmob.imdemo.util.IMMLeaks;
@@ -46,7 +46,7 @@ public class MainActivity extends BaseActivity {
     ImageView iv_contact_tips;
 
     private TextView[] mTabs;
-    private ParentWithNaviFragment recommendFragment,collectFragment;
+    private ParentWithNaviFragment recommendFragment, personalFragment;
     private SetFragment setFragment;
     private Fragment[] fragments;
     private int index;
@@ -105,13 +105,13 @@ public class MainActivity extends BaseActivity {
     private void initTab() {
         recommendFragment = new RecommendFragment();
         setFragment = new SetFragment();
-        collectFragment = new CollectFragment();
-        fragments = new Fragment[]{recommendFragment, collectFragment, setFragment};
+        personalFragment = new PersonalFragment();
+        fragments = new Fragment[]{recommendFragment, personalFragment, setFragment};
         getSupportFragmentManager().beginTransaction()
                 .add(R.id.fragment_container, recommendFragment).
-                add(R.id.fragment_container, collectFragment)
+                add(R.id.fragment_container, personalFragment)
                 .add(R.id.fragment_container, setFragment)
-                .hide(setFragment).hide(collectFragment)
+                .hide(setFragment).hide(personalFragment)
                 .show(recommendFragment).commit();
     }
 

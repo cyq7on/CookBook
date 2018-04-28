@@ -4,8 +4,10 @@ import com.orhanobut.logger.Logger;
 
 import java.util.List;
 
+import cn.bmob.imdemo.base.ParentWithNaviActivity;
 import cn.bmob.imdemo.bean.CookBook;
 import cn.bmob.imdemo.bean.User;
+import cn.bmob.imdemo.ui.UploadCookBookActivity;
 import cn.bmob.v3.BmobQuery;
 import cn.bmob.v3.exception.BmobException;
 import cn.bmob.v3.listener.FindListener;
@@ -14,6 +16,21 @@ public class CollectFragment extends RecommendFragment {
     @Override
     protected String title() {
         return "收藏";
+    }
+
+    @Override
+    public ParentWithNaviActivity.ToolBarListener setToolBarListener() {
+        return new ParentWithNaviActivity.ToolBarListener() {
+            @Override
+            public void clickLeft() {
+
+            }
+
+            @Override
+            public void clickRight() {
+                startActivity(UploadCookBookActivity.class,null);
+            }
+        };
     }
 
     @Override

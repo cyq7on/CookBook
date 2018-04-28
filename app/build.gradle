@@ -65,7 +65,7 @@ dependencies {
 
     //汉字转拼音
     compile 'com.github.promeg:tinypinyin:1.0.0'
-    compile('com.yuyh.imgsel:library:2.0.2'){
+    compile('com.yuyh.imgsel:library:2.0.2') {
         exclude module: 'support-v4'
     }
 

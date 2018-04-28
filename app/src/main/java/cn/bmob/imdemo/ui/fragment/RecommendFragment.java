@@ -63,11 +63,6 @@ public class RecommendFragment extends ParentWithNaviFragment {
         };
     }
 
-    @Override
-    public void onHiddenChanged(boolean hidden) {
-        super.onHiddenChanged(hidden);
-        setUserVisibleHint(!hidden);
-    }
 
     @Nullable
     @Override
