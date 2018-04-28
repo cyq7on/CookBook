@@ -35,7 +35,8 @@ public class CookBookAdapter extends BaseRecyclerAdapter<CookBook> {
     @Override
     public void bindView(BaseRecyclerHolder holder, final CookBook cookBook, int position) {
         final User u = BmobUser.getCurrentUser(User.class);
-        StringBuilder stringBuilder = new StringBuilder("菜名：").append(cookBook.name).append("\n")
+        holder.setText(R.id.tv_name,"菜名：" + cookBook.name);
+        StringBuilder stringBuilder = new StringBuilder()
                 .append("步骤：").append(cookBook.step).append("\n");
         int size = cookBook.nutrientList.size();
         if(size > 0){
@@ -44,6 +45,7 @@ public class CookBookAdapter extends BaseRecyclerAdapter<CookBook> {
         for (int i = 0; i < size; i++) {
             stringBuilder.append(cookBook.nutrientList.get(i)).append("\n");
         }
+        stringBuilder.append("标签：").append(cookBook.category);
 
         holder.setText(R.id.tv_info,stringBuilder.toString());
         holder.setImageView(cookBook.imageUrl,R.mipmap.ic_launcher,R.id.iv);
