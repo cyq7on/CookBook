@@ -14,6 +14,7 @@ import android.widget.PopupMenu;
 
 import com.orhanobut.logger.Logger;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import butterknife.Bind;
@@ -35,6 +36,7 @@ public class RecommendFragment extends ParentWithNaviFragment {
     SwipeRefreshLayout swRefresh;
     protected CookBookAdapter adapter;
     private String category = "全部";
+    private PopupMenu popup;
 
     @Override
     protected String title() {
@@ -56,21 +58,6 @@ public class RecommendFragment extends ParentWithNaviFragment {
 
             @Override
             public void clickRight() {
-                PopupMenu popup = new PopupMenu(getActivity(),tv_right);
-                popup.getMenuInflater().inflate(R.menu.menu_main, popup.getMenu());
-                popup.setOnMenuItemClickListener(new PopupMenu.OnMenuItemClickListener() {
-                    @Override
-                    public boolean onMenuItemClick(MenuItem item) {
-                        String title = (String) item.getTitle();
-                        if (TextUtils.isEmpty(title)) {
-                            return false;
-                        } else {
-                            query(title);
-                            category = title;
-                            return true;
-                        }
-                    }
-                });
                 popup.show();
             }
         };
@@ -115,6 +102,23 @@ public class RecommendFragment extends ParentWithNaviFragment {
             }
         });
 
+        popup = new PopupMenu(getActivity(),tv_right);
+        popup.getMenuInflater().inflate(R.menu.menu_main, popup.getMenu());
+        popup.setOnMenuItemClickListener(new PopupMenu.OnMenuItemClickListener() {
+            @Override
+            public boolean onMenuItemClick(MenuItem item) {
+                String title = (String) item.getTitle();
+                if (TextUtils.isEmpty(title)) {
+                    return false;
+                } else {
+                    swRefresh.setRefreshing(true);
+                    query(title);
+                    category = title;
+                    return true;
+                }
+            }
+        });
+
         return rootView;
     }
 
@@ -126,20 +130,34 @@ public class RecommendFragment extends ParentWithNaviFragment {
     }
 
 
-    protected void query(String category) {
+    protected void query(final String category) {
         BmobQuery<CookBook> query = new BmobQuery<>();
         query.order("-updatedAt");
-        if(!category.contains("全部")){
-            query.addWhereContains("category","test");
-        }
+        /*if(!category.contains("全部")){
+//            query.addWhereContains("category","test");
+            query.addWhereEqualTo("category","test");
+        }*/
         query.findObjects(new FindListener<CookBook>() {
             @Override
             public void done(List<CookBook> list, BmobException e) {
                 swRefresh.setRefreshing(false);
                 if (e == null) {
                     if (list != null && list.size() > 0) {
-                        for (CookBook cookBook : list) {
-                            Logger.d(cookBook.toString());
+                        List<CookBook> cookBookList = new ArrayList<>();
+                        if(!category.contains("全部")){
+                            for (CookBook cookBook : list) {
+                                if(cookBook.category.contains(category)){
+                                    cookBookList.add(cookBook);
+                                }
+                                Logger.d(cookBook.toString());
+                            }
+                            list = cookBookList;
+                        }
+                        if(list.isEmpty()){
+                            if (getUserVisibleHint()) {
+                                toast("暂无信息");
+                            }
+
                         }
                         adapter.bindDatas(list);
                     } else {

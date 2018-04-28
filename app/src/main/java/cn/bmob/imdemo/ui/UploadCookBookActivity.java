@@ -135,7 +135,6 @@ public class UploadCookBookActivity extends ParentWithNaviActivity {
                     toast("请选择图片");
                     return;
                 }
-                Logger.d("start...");
                 bmobFile.uploadblock(new UploadFileListener() {
                     @Override
                     public void done(BmobException e) {
