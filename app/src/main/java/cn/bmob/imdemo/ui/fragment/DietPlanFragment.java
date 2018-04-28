@@ -19,7 +19,7 @@ import cn.bmob.imdemo.adapter.base.IMutlipleItem;
 import cn.bmob.imdemo.base.ParentWithNaviActivity;
 import cn.bmob.imdemo.base.ParentWithNaviFragment;
 import cn.bmob.imdemo.bean.CookBook;
-import cn.bmob.imdemo.ui.UploadCookBookActivity;
+import cn.bmob.imdemo.ui.UploadDietActivity;
 
 public class DietPlanFragment extends ParentWithNaviFragment {
     @Bind(R.id.rc_view)
@@ -47,7 +47,7 @@ public class DietPlanFragment extends ParentWithNaviFragment {
 
             @Override
             public void clickRight() {
-                startActivity(UploadCookBookActivity.class,null);
+                startActivity(UploadDietActivity.class,null);
             }
         };
     }

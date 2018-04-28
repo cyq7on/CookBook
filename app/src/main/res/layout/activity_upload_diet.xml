@@ -21,7 +21,7 @@
             android:layout_height="@dimen/height_title"
             android:background="@color/transparent"
             android:drawablePadding="25dip"
-            android:hint="@string/upload_name"
+            android:hint="@string/upload_plan"
             android:paddingLeft="15dip"
             android:shadowDx="0.0"
             android:shadowDy="1.0"
