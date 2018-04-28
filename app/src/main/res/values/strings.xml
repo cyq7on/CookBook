@@ -58,6 +58,10 @@
     <string name="upload_category1">请选择菜系</string>
     <string name="upload_category2">请选择种类</string>
     <string name="upload_image">请选择图片</string>
+    <string name="upload_plan">请填写计划名</string>
+    <string name="upload_breakfast">早餐餐品</string>
+    <string name="upload_launch">午餐餐品</string>
+    <string name="upload_dinner">晚餐餐品</string>
     <string name="upload">上传</string>
 
 </resources>
