@@ -3,30 +3,30 @@
 
     <item
         is-multidex="true"
-        jar="/media/cyq7on/0EFF10060EFF1006/demo/Android/bmob-newim-demo/CookBook/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jar="D:\Demo\CookBook\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="27.0.3"
         sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="/media/cyq7on/0EFF10060EFF1006/demo/Android/bmob-newim-demo/CookBook/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_7f415a0f475d4eeb29485ca9032c932531701409/classes.dex" />
+        <dex dex="D:\Demo\CookBook\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_06ca8fbf0f38e4e14de10c5b42961fcfd87e3781\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/media/cyq7on/0EFF10060EFF1006/demo/Android/bmob-newim-demo/CookBook/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jar="D:\Demo\CookBook\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="27.0.3"
-        sha1="99a2e4f6dea7d03b0e0a7d94ada9a584f7a37c44">
-        <dex dex="/media/cyq7on/0EFF10060EFF1006/demo/Android/bmob-newim-demo/CookBook/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_65634f35e17b64b47bd39ee364b4cec878d3e9a3/classes.dex" />
+        sha1="9869329156f7d4f32c4e25e1f005c86e61b8e659">
+        <dex dex="D:\Demo\CookBook\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_64c8470a3c52b3cd824a0f86b175764009d1c06e\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/media/cyq7on/0EFF10060EFF1006/demo/Android/bmob-newim-demo/CookBook/app/libs/universal-image-loader-1.9.5.jar"
+        jar="D:\Demo\CookBook\app\libs\universal-image-loader-1.9.5.jar"
         jumboMode="true"
         optimize="true"
         revision="27.0.3"
         sha1="442dbfb517b9ab5cb5c6da7ebf8cc28ec5bd0375">
-        <dex dex="/media/cyq7on/0EFF10060EFF1006/demo/Android/bmob-newim-demo/CookBook/app/build/intermediates/transforms/dex/debug/folders/1000/2/universal-image-loader-1.9.5_7cab0ebc3b78e4b4566fd2e2a11487ceadacb3b0/classes.dex" />
+        <dex dex="D:\Demo\CookBook\app\build\intermediates\transforms\dex\debug\folders\1000\2\universal-image-loader-1.9.5_92d968d99dbaaa9e6d4a0856ba0ffe68054450b4\classes.dex" />
     </item>
 
 </items>

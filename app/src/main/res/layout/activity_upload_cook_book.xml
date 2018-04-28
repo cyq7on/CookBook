@@ -84,6 +84,30 @@
             android:drawableRight="@mipmap/register_bottom_arrow"
             android:textColorHint="#ffdddddd" />
 
+        <TextView
+            android:id="@+id/tv_category1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_title"
+            android:background="@color/transparent"
+            android:hint="@string/upload_category1"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dip"
+            android:paddingRight="15dip"
+            android:drawableRight="@mipmap/register_bottom_arrow"
+            android:textColorHint="#ffdddddd" />
+
+        <TextView
+            android:id="@+id/tv_category2"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_title"
+            android:background="@color/transparent"
+            android:hint="@string/upload_category2"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dip"
+            android:paddingRight="15dip"
+            android:drawableRight="@mipmap/register_bottom_arrow"
+            android:textColorHint="#ffdddddd" />
+
         <ImageView
             android:id="@+id/image"
             android:layout_width="wrap_content"

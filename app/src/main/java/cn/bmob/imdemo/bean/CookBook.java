@@ -15,6 +15,7 @@ import cn.bmob.v3.datatype.BmobRelation;
 public class CookBook extends BmobObject {
     public String name;
     public String step;
+    public String category;
     public String createUserId;
     public List<String> nutrientList = new ArrayList<>();
     public String imageUrl;
@@ -26,6 +27,7 @@ public class CookBook extends BmobObject {
         return "CookBook{" +
                 "name='" + name + '\'' +
                 ", step='" + step + '\'' +
+                ", category='" + category + '\'' +
                 ", createUserId='" + createUserId + '\'' +
                 ", nutrientList=" + nutrientList +
                 ", imageUrl='" + imageUrl + '\'' +

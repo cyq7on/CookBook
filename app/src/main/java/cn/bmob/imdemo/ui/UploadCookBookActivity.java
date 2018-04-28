@@ -42,11 +42,17 @@ public class UploadCookBookActivity extends ParentWithNaviActivity {
     TextView etImage;
     @Bind(R.id.et_nutrient)
     TextView etNutrient;
+    @Bind(R.id.tv_category1)
+    TextView tvCategory1;
+    @Bind(R.id.tv_category2)
+    TextView tvCategory2;
     @Bind(R.id.image)
     ImageView image;
     @Bind(R.id.btn_upload)
     Button btnUpload;
     private String[] items = {"能量", "蛋白质", "维生素A", "维生素B", "维生素C", "维生素D", "维生素E", "钙铁锌硒"};
+    private String[] category1 = {"鲁菜", "川菜", "粤菜", "淮扬菜"};
+    private String[] category2 = {"早餐", "午餐", "晚餐"};
     private BmobFile bmobFile;
 
     @Override
@@ -61,63 +67,104 @@ public class UploadCookBookActivity extends ParentWithNaviActivity {
                 selectPhoto();
             }
         });
-        if(user.role == 1){
+        if (user.role == 1) {
             etNutrient.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     showDialog();
                 }
             });
-        }else {
+        } else {
             etNutrient.setVisibility(View.GONE);
         }
+
+        tvCategory1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                AlertDialog dialog = new AlertDialog.Builder(UploadCookBookActivity.this)
+                        .setTitle("菜系")
+                        .setItems(category1, new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialogInterface, int i) {
+                                tvCategory1.setText(category1[i]);
+                            }
+                        }).create();
+                dialog.show();
+            }
+        });
+
+        tvCategory2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                AlertDialog dialog = new AlertDialog.Builder(UploadCookBookActivity.this)
+                        .setTitle("类型")
+                        .setItems(category2, new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialogInterface, int i) {
+                                tvCategory2.setText(category2[i]);
+                            }
+                        }).create();
+                dialog.show();
+            }
+        });
 
         btnUpload.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 final String name = etName.getText().toString();
                 final String step = etStep.getText().toString();
-                if(TextUtils.isEmpty(name)){
+                final String category1 = tvCategory1.getText().toString();
+                final String category2 = tvCategory2.getText().toString();
+                if (TextUtils.isEmpty(name)) {
                     toast("请填写菜名");
                     return;
                 }
-                if(TextUtils.isEmpty(step)){
+                if (TextUtils.isEmpty(step)) {
                     toast("请填写步骤");
                     return;
                 }
-                if(bmobFile != null){
-                    Logger.d("start...");
-                    bmobFile.uploadblock(new UploadFileListener() {
-//                    bmobFile.upload(new UploadFileListener() {
-                        @Override
-                        public void done(BmobException e) {
-                            if(e == null){
-                                Logger.d(bmobFile.getFileUrl());
-                                cookBook.imageUrl = bmobFile.getFileUrl();
-                                cookBook.createUserId = user.getObjectId();
-                                cookBook.step = step;
-                                cookBook.name = name;
-                                cookBook.save(new SaveListener<String>() {
-                                    @Override
-                                    public void done(String s, BmobException e) {
-                                        if(e == null){
-                                            toast("上传成功");
-                                            finish();
-                                        }else {
-                                            toast("上传失败");
-                                            Logger.d(e.getMessage());
-                                        }
-                                    }
-                                });
-                            }else {
-                                toast("上传失败");
-                                Logger.d(e.getMessage());
-                            }
-                        }
-                    });
+                if (TextUtils.isEmpty(category1)) {
+                    toast("请选择菜系");
+                    return;
                 }
-
+                if (TextUtils.isEmpty(category2)) {
+                    toast("请选择类型");
+                    return;
+                }
+                if (bmobFile == null) {
+                    toast("请选择图片");
+                    return;
+                }
+                Logger.d("start...");
+                bmobFile.uploadblock(new UploadFileListener() {
+                    @Override
+                    public void done(BmobException e) {
+                        if (e == null) {
+                            Logger.d(bmobFile.getFileUrl());
+                            cookBook.imageUrl = bmobFile.getFileUrl();
+                            cookBook.createUserId = user.getObjectId();
+                            cookBook.step = step;
+                            cookBook.name = name;
+                            cookBook.save(new SaveListener<String>() {
+                                @Override
+                                public void done(String s, BmobException e) {
+                                    if (e == null) {
+                                        toast("上传成功");
+                                        finish();
+                                    } else {
+                                        toast("上传失败");
+                                        Logger.d(e.getMessage());
+                                    }
+                                }
+                            });
+                        } else {
+                            toast("上传失败");
+                            Logger.d(e.getMessage());
+                        }
+                    }
+                });
             }
+
         });
     }
 
@@ -136,7 +183,7 @@ public class UploadCookBookActivity extends ParentWithNaviActivity {
                         for (int j = 0; j < cookBook.nutrientList.size(); j++) {
                             stringBuilder.append(cookBook.nutrientList.get(j)).append("\t");
                             //textView 设置省略号无效
-                            if(j > 3){
+                            if (j > 3) {
                                 stringBuilder.append("...");
                                 break;
                             }
@@ -150,9 +197,9 @@ public class UploadCookBookActivity extends ParentWithNaviActivity {
                     @Override
                     public void onClick(DialogInterface dialog, int which, boolean isChecked) {
                         Logger.d(which + "\n" + isChecked);
-                        if(isChecked){
+                        if (isChecked) {
                             cookBook.nutrientList.add(items[which]);
-                        }else {
+                        } else {
                             cookBook.nutrientList.remove(items[which]);
                         }
                     }
@@ -207,7 +254,7 @@ public class UploadCookBookActivity extends ParentWithNaviActivity {
             for (String path : pathList) {
                 Logger.d(path + "\n");
             }
-            if(pathList.size() > 0){
+            if (pathList.size() > 0) {
                 File file = new File(pathList.get(0));
                 bmobFile = new BmobFile(file);
                 image.setImageURI(Uri.fromFile(file));
