@@ -52,7 +52,7 @@ public class UploadCookBookActivity extends ParentWithNaviActivity {
     Button btnUpload;
     private String[] items = {"能量", "蛋白质", "维生素A", "维生素B", "维生素C", "维生素D", "维生素E", "钙铁锌硒"};
     private String[] category1 = {"鲁菜", "川菜", "粤菜", "淮扬菜"};
-    private String[] category2 = {"早餐", "午餐", "晚餐"};
+    private String[] category2 = {"淮扬菜", "午餐", "晚餐"};
     private BmobFile bmobFile;
 
     @Override
@@ -145,6 +145,7 @@ public class UploadCookBookActivity extends ParentWithNaviActivity {
                             cookBook.createUserId = user.getObjectId();
                             cookBook.step = step;
                             cookBook.name = name;
+                            cookBook.category = category1 + "/" +category2;
                             cookBook.save(new SaveListener<String>() {
                                 @Override
                                 public void done(String s, BmobException e) {

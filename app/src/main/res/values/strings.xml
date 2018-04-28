@@ -1,6 +1,14 @@
 <resources>
     <string name="app_name">菜谱</string>
     <string name="action_settings">Settings</string>
+    <string name="action_1">全部</string>
+    <string name="action_2">鲁菜</string>
+    <string name="action_3">川菜</string>
+    <string name="action_4">粤菜</string>
+    <string name="action_5">淮扬菜</string>
+    <string name="action_6">早餐</string>
+    <string name="action_7">午餐</string>
+    <string name="action_8">晚餐</string>
     <string name="login_username_hint">请输入用户名&#8230;</string>
     <string name="login_password_hint">请输入密码&#8230;</string>
     <string name="login_email_hint">请再次输入密码&#8230;</string>

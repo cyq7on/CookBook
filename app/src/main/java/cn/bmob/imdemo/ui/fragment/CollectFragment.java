@@ -17,7 +17,7 @@ public class CollectFragment extends RecommendFragment {
     }
 
     @Override
-    protected void query() {
+    protected void query(String category) {
         BmobQuery<CookBook> query = new BmobQuery<>();
         BmobQuery<User> innerQuery = new BmobQuery<>();
         innerQuery.addWhereEqualTo("objectId",user.getObjectId());

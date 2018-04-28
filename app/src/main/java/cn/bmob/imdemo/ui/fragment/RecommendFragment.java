@@ -5,9 +5,12 @@ import android.support.annotation.Nullable;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.text.TextUtils;
 import android.view.LayoutInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.PopupMenu;
 
 import com.orhanobut.logger.Logger;
 
@@ -21,7 +24,6 @@ import cn.bmob.imdemo.adapter.base.IMutlipleItem;
 import cn.bmob.imdemo.base.ParentWithNaviActivity;
 import cn.bmob.imdemo.base.ParentWithNaviFragment;
 import cn.bmob.imdemo.bean.CookBook;
-import cn.bmob.imdemo.ui.UploadCookBookActivity;
 import cn.bmob.v3.BmobQuery;
 import cn.bmob.v3.exception.BmobException;
 import cn.bmob.v3.listener.FindListener;
@@ -32,6 +34,7 @@ public class RecommendFragment extends ParentWithNaviFragment {
     @Bind(R.id.sw_refresh)
     SwipeRefreshLayout swRefresh;
     protected CookBookAdapter adapter;
+    private String category = "全部";
 
     @Override
     protected String title() {
@@ -53,7 +56,22 @@ public class RecommendFragment extends ParentWithNaviFragment {
 
             @Override
             public void clickRight() {
-                startActivity(UploadCookBookActivity.class, null);
+                PopupMenu popup = new PopupMenu(getActivity(),tv_right);
+                popup.getMenuInflater().inflate(R.menu.menu_main, popup.getMenu());
+                popup.setOnMenuItemClickListener(new PopupMenu.OnMenuItemClickListener() {
+                    @Override
+                    public boolean onMenuItemClick(MenuItem item) {
+                        String title = (String) item.getTitle();
+                        if (TextUtils.isEmpty(title)) {
+                            return false;
+                        } else {
+                            query(title);
+                            category = title;
+                            return true;
+                        }
+                    }
+                });
+                popup.show();
             }
         };
     }
@@ -93,9 +111,10 @@ public class RecommendFragment extends ParentWithNaviFragment {
         swRefresh.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override
             public void onRefresh() {
-                query();
+                query(category);
             }
         });
+
         return rootView;
     }
 
@@ -103,12 +122,16 @@ public class RecommendFragment extends ParentWithNaviFragment {
     public void onStart() {
         super.onStart();
         swRefresh.setRefreshing(true);
-        query();
+        query(category);
     }
 
-    protected void query() {
+
+    protected void query(String category) {
         BmobQuery<CookBook> query = new BmobQuery<>();
         query.order("-updatedAt");
+        if(!category.contains("全部")){
+            query.addWhereContains("category","test");
+        }
         query.findObjects(new FindListener<CookBook>() {
             @Override
             public void done(List<CookBook> list, BmobException e) {
