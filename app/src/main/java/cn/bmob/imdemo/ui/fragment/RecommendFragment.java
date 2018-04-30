@@ -93,6 +93,7 @@ public class RecommendFragment extends ParentWithNaviFragment {
         swRefresh.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override
             public void onRefresh() {
+                swRefresh.setRefreshing(true);
                 query(category);
             }
         });

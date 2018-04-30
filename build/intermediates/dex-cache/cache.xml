@@ -3,30 +3,12 @@
 
     <item
         is-multidex="true"
-        jar="/media/cyq7on/0EFF10060EFF1006/demo/Android/bmob-newim-demo/CookBook/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jar="/media/cyq7on/0EFF10060EFF1006/demo/Android/CookBook/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="27.0.3"
-        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="/media/cyq7on/0EFF10060EFF1006/demo/Android/bmob-newim-demo/CookBook/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_7f415a0f475d4eeb29485ca9032c932531701409/classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/cyq7on/.android/build-cache/fb53a3f51c13becb362cec6c6887832706b27581/output/jars/libs/okio-1.12.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="27.0.3"
-        sha1="c65ee0a604ff98ecaed12b7dccad20fd959026a3">
-        <dex dex="/media/cyq7on/0EFF10060EFF1006/demo/Android/bmob-newim-demo/CookBook/app/build/intermediates/pre-dexed/debug/okio-1.12.0_b5b6d2d8daf26aefd975cb34c12bec766891980f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/cyq7on/.android/build-cache/fb53a3f51c13becb362cec6c6887832706b27581/output/jars/libs/rxjava-1.1.6.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="27.0.3"
-        sha1="79f0c1e382e8b62e91064ef6b71130dda83f338e">
-        <dex dex="/media/cyq7on/0EFF10060EFF1006/demo/Android/bmob-newim-demo/CookBook/app/build/intermediates/pre-dexed/debug/rxjava-1.1.6_315a80c2bac3abc2e97dd66524af08af90277fda.jar" />
+        sha1="251b920a26416a5abd8787c216f240697792d4d8">
+        <dex dex="/media/cyq7on/0EFF10060EFF1006/demo/Android/CookBook/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_d1fc96b3a61067b68d78ee12d1fda5281ad3ad86/classes.dex" />
     </item>
     <item
         is-multidex="false"
@@ -36,15 +18,6 @@
         revision="27.0.3"
         sha1="84127ad71f76445b8215afceb38e8b05f58eafa6">
         <dex dex="/media/cyq7on/0EFF10060EFF1006/demo/Android/bmob-newim-demo/CookBook/app/build/intermediates/pre-dexed/debug/rxandroid-1.2.0_a1da06808d44459f2872fc88fdaa5a7ee80c5f3a.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/media/cyq7on/0EFF10060EFF1006/demo/Android/bmob-newim-demo/CookBook/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="27.0.3"
-        sha1="d1ddc0d13f66a0db9127e2b4fb5dc2a1a7f33fbd">
-        <dex dex="/media/cyq7on/0EFF10060EFF1006/demo/Android/bmob-newim-demo/CookBook/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_65634f35e17b64b47bd39ee364b4cec878d3e9a3/classes.dex" />
     </item>
     <item
         is-multidex="false"
@@ -74,13 +47,40 @@
         <dex dex="/media/cyq7on/0EFF10060EFF1006/demo/Android/bmob-newim-demo/CookBook/app/build/intermediates/pre-dexed/debug/gson-2.6.2_0886d2f21c452e6c9eecc13c51f74c49f3e0fa1d.jar" />
     </item>
     <item
+        is-multidex="false"
+        jar="/home/cyq7on/.android/build-cache/fb53a3f51c13becb362cec6c6887832706b27581/output/jars/libs/okio-1.12.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="c65ee0a604ff98ecaed12b7dccad20fd959026a3">
+        <dex dex="/media/cyq7on/0EFF10060EFF1006/demo/Android/bmob-newim-demo/CookBook/app/build/intermediates/pre-dexed/debug/okio-1.12.0_b5b6d2d8daf26aefd975cb34c12bec766891980f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cyq7on/.android/build-cache/fb53a3f51c13becb362cec6c6887832706b27581/output/jars/libs/rxjava-1.1.6.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="79f0c1e382e8b62e91064ef6b71130dda83f338e">
+        <dex dex="/media/cyq7on/0EFF10060EFF1006/demo/Android/bmob-newim-demo/CookBook/app/build/intermediates/pre-dexed/debug/rxjava-1.1.6_315a80c2bac3abc2e97dd66524af08af90277fda.jar" />
+    </item>
+    <item
         is-multidex="true"
-        jar="/media/cyq7on/0EFF10060EFF1006/demo/Android/bmob-newim-demo/CookBook/app/libs/universal-image-loader-1.9.5.jar"
+        jar="/media/cyq7on/0EFF10060EFF1006/demo/Android/CookBook/app/libs/universal-image-loader-1.9.5.jar"
         jumboMode="true"
         optimize="true"
         revision="27.0.3"
         sha1="442dbfb517b9ab5cb5c6da7ebf8cc28ec5bd0375">
-        <dex dex="/media/cyq7on/0EFF10060EFF1006/demo/Android/bmob-newim-demo/CookBook/app/build/intermediates/transforms/dex/debug/folders/1000/2/universal-image-loader-1.9.5_7cab0ebc3b78e4b4566fd2e2a11487ceadacb3b0/classes.dex" />
+        <dex dex="/media/cyq7on/0EFF10060EFF1006/demo/Android/CookBook/app/build/intermediates/transforms/dex/debug/folders/1000/2/universal-image-loader-1.9.5_0737dbdb2ae5e255ddcfef8f8445933fb0ca4056/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/media/cyq7on/0EFF10060EFF1006/demo/Android/CookBook/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/media/cyq7on/0EFF10060EFF1006/demo/Android/CookBook/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_c156436d1d29b93fc2d465624d7ce48bf4de3ca7/classes.dex" />
     </item>
     <item
         is-multidex="false"

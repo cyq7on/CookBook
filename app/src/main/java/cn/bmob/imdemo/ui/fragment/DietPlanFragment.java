@@ -9,24 +9,29 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.orhanobut.logger.Logger;
+
 import java.util.List;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
 import cn.bmob.imdemo.R;
-import cn.bmob.imdemo.adapter.CookBookAdapter;
+import cn.bmob.imdemo.adapter.DietPlanAdapter;
 import cn.bmob.imdemo.adapter.base.IMutlipleItem;
 import cn.bmob.imdemo.base.ParentWithNaviActivity;
 import cn.bmob.imdemo.base.ParentWithNaviFragment;
-import cn.bmob.imdemo.bean.CookBook;
+import cn.bmob.imdemo.bean.DietPlan;
 import cn.bmob.imdemo.ui.UploadDietActivity;
+import cn.bmob.v3.BmobQuery;
+import cn.bmob.v3.exception.BmobException;
+import cn.bmob.v3.listener.FindListener;
 
 public class DietPlanFragment extends ParentWithNaviFragment {
     @Bind(R.id.rc_view)
     RecyclerView rcView;
     @Bind(R.id.sw_refresh)
     SwipeRefreshLayout swRefresh;
-    private CookBookAdapter adapter;
+    private DietPlanAdapter adapter;
     @Override
     protected String title() {
         return "饮食计划";
@@ -58,29 +63,30 @@ public class DietPlanFragment extends ParentWithNaviFragment {
         rootView = inflater.inflate(R.layout.fragment_conversation, container, false);
         ButterKnife.bind(this, rootView);
         initNaviView();
-        IMutlipleItem<CookBook> mutlipleItem = new IMutlipleItem<CookBook>() {
+        IMutlipleItem<DietPlan> mutlipleItem = new IMutlipleItem<DietPlan>() {
 
             @Override
-            public int getItemViewType(int postion, CookBook cookBook) {
+            public int getItemViewType(int postion, DietPlan dietPlan) {
                 return 0;
             }
 
             @Override
             public int getItemLayoutId(int viewtype) {
-                return R.layout.item_cookbook;
+                return R.layout.item_dietplan;
             }
 
             @Override
-            public int getItemCount(List<CookBook> list) {
+            public int getItemCount(List<DietPlan> list) {
                 return list.size();
             }
         };
-        adapter = new CookBookAdapter(getActivity(), mutlipleItem, null);
+        adapter = new DietPlanAdapter(getActivity(), mutlipleItem, null);
         rcView.setAdapter(adapter);
         rcView.setLayoutManager(new LinearLayoutManager(getActivity()));
         swRefresh.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override
             public void onRefresh() {
+                swRefresh.setRefreshing(true);
                 query();
             }
         });
@@ -98,50 +104,31 @@ public class DietPlanFragment extends ParentWithNaviFragment {
 
 
     protected void query() {
-        /*BmobQuery<CookBook> query = new BmobQuery<>();
+        BmobQuery<DietPlan> query = new BmobQuery<>();
         query.order("-updatedAt");
-        *//*if(!category.contains("全部")){
-//            query.addWhereContains("category","test");
-            query.addWhereEqualTo("category","test");
-        }*//*
-        query.findObjects(new FindListener<CookBook>() {
+        query.findObjects(new FindListener<DietPlan>() {
             @Override
-            public void done(List<CookBook> list, BmobException e) {
+            public void done(List<DietPlan> list, BmobException e) {
                 swRefresh.setRefreshing(false);
                 if (e == null) {
                     if (list != null && list.size() > 0) {
-                        List<CookBook> cookBookList = new ArrayList<>();
-                        if(!category.contains("全部")){
-                            for (CookBook cookBook : list) {
-                                if(cookBook.category.contains(category)){
-                                    cookBookList.add(cookBook);
-                                }
-                                Logger.d(cookBook.toString());
-                            }
-                            list = cookBookList;
-                        }
-                        if(list.isEmpty()){
-                            if (getUserVisibleHint()) {
-                                toast("暂无信息");
-                            }
-
-                        }
                         adapter.bindDatas(list);
                     } else {
-                        if (getUserVisibleHint()) {
+                        if(getUserVisibleHint()){
                             toast("暂无信息");
                         }
                         adapter.bindDatas(list);
 
                     }
                 } else {
-                    if (getUserVisibleHint()) {
+                    if(getUserVisibleHint()){
                         toast("获取信息出错");
                     }
                     Logger.e(e);
                 }
             }
-        });*/
+        });
+
     }
 
     @Override
