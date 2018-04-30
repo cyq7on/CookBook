@@ -39,7 +39,7 @@ public class DietPlanFragment extends ParentWithNaviFragment {
 
     @Override
     public Object right() {
-        return R.drawable.base_action_bar_add_bg_selector;
+        return user.role == 1 ? R.drawable.base_action_bar_add_bg_selector : null;
     }
 
     @Override
