@@ -63,5 +63,8 @@
     <string name="upload_launch">午餐餐品</string>
     <string name="upload_dinner">晚餐餐品</string>
     <string name="upload">上传</string>
+    <string name="recommend_weight_hint">请输入体重，单位kg</string>
+    <string name="recommend_height_hint">请输入身高，单位cm</string>
+    <string name="recommend_generate">生成健康报告</string>
 
 </resources>
