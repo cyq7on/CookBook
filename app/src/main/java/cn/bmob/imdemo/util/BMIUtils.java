@@ -9,6 +9,7 @@ public class BMIUtils {
     private String bmi; //Stores the Bmi result in String
     private String status; //Stores the status (Normal......)
     private static DecimalFormat decimalFormat = new DecimalFormat(".#"); //Formating the result
+    private int statusInt;
 
     public BMIUtils(double weight,double height) {
         calculateBmi(weight,height);
@@ -38,6 +39,10 @@ public class BMIUtils {
      */
     public String getStatus() {
         return status;
+    }
+
+    public int getStatusInt() {
+        return statusInt;
     }
 
     /**
@@ -94,12 +99,16 @@ public class BMIUtils {
 
         if (result < 18.5) {
             status = "偏瘦，推荐您多吃热量菜品";
+            statusInt = 0 ;
         } else if (result > 18.5 && result < 25) {
             status = "正常，身体较为健康";
+            statusInt = 1 ;
         } else if (result > 25 && result < 30) {
             status = "过重，少吃能量过多的食物，迈开腿管住嘴";
+            statusInt = 2 ;
         } else if (result >= 30) {
             status = "肥胖，禁食高热量食物，多运动";
+            statusInt = 3 ;
         }
     }
 }

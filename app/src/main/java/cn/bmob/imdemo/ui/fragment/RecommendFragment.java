@@ -29,6 +29,7 @@ import cn.bmob.imdemo.base.ParentWithNaviActivity;
 import cn.bmob.imdemo.base.ParentWithNaviFragment;
 import cn.bmob.imdemo.bean.CookBook;
 import cn.bmob.imdemo.util.BMIUtils;
+import cn.bmob.imdemo.util.SPUtil;
 import cn.bmob.v3.BmobQuery;
 import cn.bmob.v3.exception.BmobException;
 import cn.bmob.v3.listener.FindListener;
@@ -47,6 +48,7 @@ public class RecommendFragment extends ParentWithNaviFragment {
     Button btnGenerate;
     private String category = "全部";
     private PopupMenu popup;
+    public static final String STATUS_INT = "status_int";
 
     @Override
     protected String title() {
@@ -143,6 +145,7 @@ public class RecommendFragment extends ParentWithNaviFragment {
 //            query.addWhereContains("category","test");
             query.addWhereEqualTo("category","test");
         }*/
+        final int status = (int) SPUtil.get(getContext(), STATUS_INT, 1);
         query.findObjects(new FindListener<CookBook>() {
             @Override
             public void done(List<CookBook> list, BmobException e) {
@@ -150,9 +153,18 @@ public class RecommendFragment extends ParentWithNaviFragment {
                 if (e == null) {
                     if (list != null && list.size() > 0) {
                         List<CookBook> cookBookList = new ArrayList<>();
-                        if (!category.contains("全部")) {
+                        if (category.contains("全部")) {
                             for (CookBook cookBook : list) {
-                                if (cookBook.category.contains(category)) {
+                                if (isNeedCook(status,cookBook.nutrientList)) {
+                                    cookBookList.add(cookBook);
+                                }
+                                Logger.d(cookBook.toString());
+                            }
+                            list = cookBookList;
+                        }else {
+                            for (CookBook cookBook : list) {
+                                if (cookBook.category.contains(category) &&
+                                        isNeedCook(status,cookBook.nutrientList)) {
                                     cookBookList.add(cookBook);
                                 }
                                 Logger.d(cookBook.toString());
@@ -183,6 +195,38 @@ public class RecommendFragment extends ParentWithNaviFragment {
         });
     }
 
+    private boolean isNeedCook(int status,List<String> nutrientList) {
+        String keyWord = "能量";
+        switch (status) {
+            case 0:
+                for (String nutrient : nutrientList) {
+                    if(nutrient.contains(keyWord)){
+                        return true;
+                    }
+                }
+                return false;
+            case 1:
+               return true;
+            case 2:
+                for (String nutrient : nutrientList) {
+                    if(nutrient.contains(keyWord)){
+                        return false;
+                    }
+                }
+                return true;
+            case 3:
+                for (String nutrient : nutrientList) {
+                    if(nutrient.contains(keyWord)){
+                        return false;
+                    }
+                }
+                return true;
+            default:
+                break;
+        }
+        return true;
+    }
+
     @Override
     public void onDestroyView() {
         super.onDestroyView();
@@ -199,5 +243,8 @@ public class RecommendFragment extends ParentWithNaviFragment {
         }
         BMIUtils utils = new BMIUtils(Double.parseDouble(weight),Double.parseDouble(height));
         toast(utils.getStatus());
+        int statusInt = utils.getStatusInt();
+        SPUtil.putAndApply(getContext(),STATUS_INT,statusInt);
+        query("全部");
     }
 }
