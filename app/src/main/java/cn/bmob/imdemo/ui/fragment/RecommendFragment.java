@@ -13,6 +13,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.PopupMenu;
+import android.widget.Toast;
 
 import com.orhanobut.logger.Logger;
 
@@ -242,7 +243,7 @@ public class RecommendFragment extends ParentWithNaviFragment {
             return;
         }
         BMIUtils utils = new BMIUtils(Double.parseDouble(weight),Double.parseDouble(height));
-        toast(utils.getStatus());
+        Toast.makeText(getContext(),utils.getStatus(),Toast.LENGTH_LONG).show();
         int statusInt = utils.getStatusInt();
         SPUtil.putAndApply(getContext(),STATUS_INT,statusInt);
         query("全部");
